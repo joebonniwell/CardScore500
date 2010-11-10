@@ -1,0 +1,47 @@
+//
+// Prefix header for all source files of the 'CardScore500' target in the 'CardScore500' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreData/CoreData.h>
+	#import "Bids.h"
+	#import "CardScore500Preferences.h"
+#endif
+
+BOOL gFirstRun;
+
+#define kAppYellowColor colorWithRed:1.0f green:1.0f blue:0.7f alpha:1.0f
+#define kPlayer1Avatar 301
+#define kPlayer2Avatar 302
+#define kPlayer3Avatar 303
+#define kPlayer4Avatar 304
+#define kLabelPositionRight 1
+#define kLabelPositionLeft 2
+
+#define kInProgressGamesSection 0
+#define kFinishedGamesSection 1
+#define kTeam13NameLabel 501
+#define kTeam24NameLabel 502
+#define kTeam13ScoreLabel 503
+#define kTeam24ScoreLabel 504
+#define kGameDateLabel 505
+
+#define kGameDetailPlayerView 201
+#define kGameDetailHistoryView 202
+#define kTeamLabel 401
+#define kBidLabel 402
+
+#define kMisdeal 6
+#define kNoWinner 5
+
+#define kAllowDealerChange 0
+#define kDisallowDealerChange 1
+#define kAskAboutDealerChange 2

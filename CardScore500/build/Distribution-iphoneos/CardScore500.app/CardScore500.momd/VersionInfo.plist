@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSManagedObjectModel_CurrentVersionName</key>
+	<string>CardScore500</string>
+	<key>NSManagedObjectModel_VersionHashes</key>
+	<dict>
+		<key>CardScore500</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			cZKbCfoUwyM0C7ODtI1DGLNGOnphrxwCKHf12nemSLk=
+			</data>
+			<key>Hand</key>
+			<data>
+			5pPxdBR0rRRTxuwlg0lKoUWwRmfspyJYeZ2uWkF0U9Q=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+		<key>CardScore500 2</key>
+		<dict>
+			<key>game</key>
+			<data>
+			quocXVgR1il4QY0PU2UXFr5HMV5eWXp7tzwNznYYET0=
+			</data>
+			<key>hand</key>
+			<data>
+			nz0KOOFyWx/6vIlt6YKIChhJgNt1DF5dvJ/qMMiu1lI=
+			</data>
+			<key>player</key>
+			<data>
+			rBQexCDcYgYY9L5wQEWfeliHUn8yrQnC1VwEPaoYu+g=
+			</data>
+		</dict>
+		<key>CardScore500 3</key>
+		<dict>
+			<key>game</key>
+			<data>
+			quocXVgR1il4QY0PU2UXFr5HMV5eWXp7tzwNznYYET0=
+			</data>
+			<key>hand</key>
+			<data>
+			nz0KOOFyWx/6vIlt6YKIChhJgNt1DF5dvJ/qMMiu1lI=
+			</data>
+			<key>player</key>
+			<data>
+			rBQexCDcYgYY9L5wQEWfeliHUn8yrQnC1VwEPaoYu+g=
+			</data>
+		</dict>
+		<key>CardScore500 4</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			8xef7ZIMyffLG04jOWJrwfu6/TzbmljqRWuKkKF5FDk=
+			</data>
+			<key>Hand</key>
+			<data>
+			Rqv/ufIfFyfb2dBZwl99xT6hgGTOC5Vo5ZsYBXTVgNM=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+		<key>CardScore500 5</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			8xef7ZIMyffLG04jOWJrwfu6/TzbmljqRWuKkKF5FDk=
+			</data>
+			<key>Hand</key>
+			<data>
+			b9FNHV+9smA0SJI/BdKM69vRyV/Vj3Jk6mdAoiYlGKM=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+		<key>CardScore500 6</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			8xef7ZIMyffLG04jOWJrwfu6/TzbmljqRWuKkKF5FDk=
+			</data>
+			<key>Hand</key>
+			<data>
+			b9FNHV+9smA0SJI/BdKM69vRyV/Vj3Jk6mdAoiYlGKM=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+		<key>CardScore500 7</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			8xef7ZIMyffLG04jOWJrwfu6/TzbmljqRWuKkKF5FDk=
+			</data>
+			<key>Hand</key>
+			<data>
+			b9FNHV+9smA0SJI/BdKM69vRyV/Vj3Jk6mdAoiYlGKM=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+		<key>CardScore500 8</key>
+		<dict>
+			<key>Game</key>
+			<data>
+			8xef7ZIMyffLG04jOWJrwfu6/TzbmljqRWuKkKF5FDk=
+			</data>
+			<key>Hand</key>
+			<data>
+			9EIyo+MxfNYGzaVxyUOVyMa7QwakA/Bli85armL1a7Y=
+			</data>
+			<key>Player</key>
+			<data>
+			RUK0/uf7LaIcCOhDcBOz4AyrJMkyUt8jVriyFUhwtmQ=
+			</data>
+		</dict>
+	</dict>
+</dict>
+</plist>

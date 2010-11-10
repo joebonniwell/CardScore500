@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>CardScore500.momd/CardScore500 2.mom</key>
+		<data>
+		jjKrK7QCrCgq/qUnFs4GjRym6NA=
+		</data>
+		<key>CardScore500.momd/CardScore500 3.mom</key>
+		<data>
+		8sNuSzR+Tkc5WaF63bZCON58HOw=
+		</data>
+		<key>CardScore500.momd/CardScore500 4.mom</key>
+		<data>
+		qF/ONBF3c/4ov2KQtUR3laNv/T0=
+		</data>
+		<key>CardScore500.momd/CardScore500 5.mom</key>
+		<data>
+		Ro3i0J9+uPcmfPJroz/vv4rTVBA=
+		</data>
+		<key>CardScore500.momd/CardScore500 6.mom</key>
+		<data>
+		P2OnqnHAZVFd/jOcYWBXqm1cRv0=
+		</data>
+		<key>CardScore500.momd/CardScore500 7.mom</key>
+		<data>
+		Dz+52kpM4/b/ch/0ptvHGbffgB0=
+		</data>
+		<key>CardScore500.momd/CardScore500 8.mom</key>
+		<data>
+		htUA/wU7rm9UdjdLybKwjTBdosM=
+		</data>
+		<key>CardScore500.momd/CardScore500.mom</key>
+		<data>
+		jEKDc3akynNFJWjDrwwIbFUOtUU=
+		</data>
+		<key>CardScore500_Icon.png</key>
+		<data>
+		70u5MhezjLUxY4MzcyvX3sq0Imo=
+		</data>
+		<key>CardScore500_Icon@2x.png</key>
+		<data>
+		nj/BpSWBy1dswpWMjfdB63LK1gA=
+		</data>
+		<key>CardScore500_Rules_English.html</key>
+		<data>
+		Cw92Pp9TBQKgtql0lc0Th207G1Y=
+		</data>
+		<key>CardScore500_Rules_English_1_0.rtf</key>
+		<data>
+		tRLFMHvleLv9CSR9Nf6HDi/nuV4=
+		</data>
+		<key>Default.png</key>
+		<data>
+		ORvLIU+H3qaJBjchOAcroTggs0M=
+		</data>
+		<key>Default@2x.png</key>
+		<data>
+		tSzxe8mhy3vCBrBmr2F3IQtt+6Q=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		70u5MhezjLUxY4MzcyvX3sq0Imo=
+		</data>
+		<key>Icon@2x.png</key>
+		<data>
+		nj/BpSWBy1dswpWMjfdB63LK1gA=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		SRw6yCsSzlXrgw1QXXfTLqFQbgo=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Settings.bundle/Root.plist</key>
+		<data>
+		hbdboRYw2jasQ+o97iOBNXRy2+g=
+		</data>
+		<key>Settings.bundle/en.lproj/Root.strings</key>
+		<data>
+		t4KY9Gh4uIiOv7VnHtRrKEuPRY8=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		K9OWcLWKRhLZX9eAoebTtyeLW2Q=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

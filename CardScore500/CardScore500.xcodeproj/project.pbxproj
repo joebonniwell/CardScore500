@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* CardScore500AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CardScore500AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* CardScore500.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* CardScore500.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		9E1808DD1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E1808DC1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf */; };
+		9E1808E1127894C0002CA889 /* CardScore500_Rules_English.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E1808E0127894C0002CA889 /* CardScore500_Rules_English.html */; };
+		9E551837127F6BCF00811C2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E551835127F6BCF00811C2D /* Default.png */; };
+		9E551838127F6BCF00811C2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E551836127F6BCF00811C2D /* Default@2x.png */; };
+		9E5518D3127F872D00811C2D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5518D2127F872D00811C2D /* Icon.png */; };
+		9E59BB2D126273540023D25A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9E59BB2C126273540023D25A /* Settings.bundle */; };
+		9E611D211278C7B900BC20ED /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E611D201278C7B900BC20ED /* Icon@2x.png */; };
+		9E996A2C1254DF7D0030475C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E996A2B1254DF7D0030475C /* QuartzCore.framework */; };
+		9E996A3E1254E44A0030475C /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A3D1254E44A0030475C /* GamesViewController.m */; };
+		9E996A451254E4D80030475C /* GamesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A441254E4D80030475C /* GamesTableViewCell.m */; };
+		9E996A4E1254E50B0030475C /* GameDetailPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A491254E50B0030475C /* GameDetailPlayerView.m */; };
+		9E996A4F1254E50B0030475C /* GameDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A4B1254E50B0030475C /* GameDetailViewController.m */; };
+		9E996A501254E50B0030475C /* StickPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A4D1254E50B0030475C /* StickPersonView.m */; };
+		9E996A5C1254E5620030475C /* RecordBidsPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A591254E5620030475C /* RecordBidsPlayerView.m */; };
+		9E996A5D1254E5620030475C /* RecordBidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A5B1254E5620030475C /* RecordBidsViewController.m */; };
+		9E996A601254E5740030475C /* RecordTricksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A5F1254E5740030475C /* RecordTricksViewController.m */; };
+		9E996A631254E5890030475C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A621254E5890030475C /* SettingsViewController.m */; };
+		9E996A6A1254E5A50030475C /* RulesTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A651254E5A50030475C /* RulesTextView.m */; };
+		9E996A6B1254E5A50030475C /* RulesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A671254E5A50030475C /* RulesViewController.m */; };
+		9E996A6C1254E5A50030475C /* ScoreChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A691254E5A50030475C /* ScoreChart.m */; };
+		9E996A6F1254E5BC0030475C /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E996A6E1254E5BC0030475C /* InformationViewController.m */; };
+		9E9BA853125B7DC1005ADC90 /* Bids.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BA852125B7DC1005ADC90 /* Bids.m */; };
+		9E9BA8F9125BB21E005ADC90 /* DealerButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9BA8F8125BB21E005ADC90 /* DealerButtonView.m */; };
+		9EA1925D12637EAB0005C168 /* NumberOfHandsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA1925C12637EAB0005C168 /* NumberOfHandsTableViewController.m */; };
+		9EE5C2041279F8A100D4CB3E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE5C2031279F8A100D4CB3E /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CardScore500AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScore500AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CardScore500AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardScore500AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CardScore500.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardScore500.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* CardScore500.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = CardScore500.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CardScore500_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScore500_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CardScore500-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CardScore500-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9E1808DC1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = CardScore500_Rules_English_1_0.rtf; sourceTree = "<group>"; };
+		9E1808E0127894C0002CA889 /* CardScore500_Rules_English.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CardScore500_Rules_English.html; sourceTree = "<group>"; };
+		9E22FC8F12760C120078C181 /* CardScore500 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 8.xcdatamodel"; sourceTree = "<group>"; };
+		9E551835127F6BCF00811C2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9E551836127F6BCF00811C2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9E5518D2127F872D00811C2D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9E59BB2C126273540023D25A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		9E611D201278C7B900BC20ED /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		9E86A39C125FE3D10086205A /* CardScore500 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 7.xcdatamodel"; sourceTree = "<group>"; };
+		9E88DDAF125685F30044698E /* CardScore500 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 4.xcdatamodel"; sourceTree = "<group>"; };
+		9E996A2B1254DF7D0030475C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E996A3C1254E44A0030475C /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		9E996A3D1254E44A0030475C /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		9E996A431254E4D80030475C /* GamesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesTableViewCell.h; sourceTree = "<group>"; };
+		9E996A441254E4D80030475C /* GamesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesTableViewCell.m; sourceTree = "<group>"; };
+		9E996A481254E50B0030475C /* GameDetailPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetailPlayerView.h; sourceTree = "<group>"; };
+		9E996A491254E50B0030475C /* GameDetailPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDetailPlayerView.m; sourceTree = "<group>"; };
+		9E996A4A1254E50B0030475C /* GameDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDetailViewController.h; sourceTree = "<group>"; };
+		9E996A4B1254E50B0030475C /* GameDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameDetailViewController.m; sourceTree = "<group>"; };
+		9E996A4C1254E50B0030475C /* StickPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickPersonView.h; sourceTree = "<group>"; };
+		9E996A4D1254E50B0030475C /* StickPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickPersonView.m; sourceTree = "<group>"; };
+		9E996A581254E5620030475C /* RecordBidsPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBidsPlayerView.h; sourceTree = "<group>"; };
+		9E996A591254E5620030475C /* RecordBidsPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBidsPlayerView.m; sourceTree = "<group>"; };
+		9E996A5A1254E5620030475C /* RecordBidsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBidsViewController.h; sourceTree = "<group>"; };
+		9E996A5B1254E5620030475C /* RecordBidsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBidsViewController.m; sourceTree = "<group>"; };
+		9E996A5E1254E5740030475C /* RecordTricksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTricksViewController.h; sourceTree = "<group>"; };
+		9E996A5F1254E5740030475C /* RecordTricksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTricksViewController.m; sourceTree = "<group>"; };
+		9E996A611254E5890030475C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9E996A621254E5890030475C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		9E996A641254E5A50030475C /* RulesTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesTextView.h; sourceTree = "<group>"; };
+		9E996A651254E5A50030475C /* RulesTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesTextView.m; sourceTree = "<group>"; };
+		9E996A661254E5A50030475C /* RulesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesViewController.h; sourceTree = "<group>"; };
+		9E996A671254E5A50030475C /* RulesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesViewController.m; sourceTree = "<group>"; };
+		9E996A681254E5A50030475C /* ScoreChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreChart.h; sourceTree = "<group>"; };
+		9E996A691254E5A50030475C /* ScoreChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreChart.m; sourceTree = "<group>"; };
+		9E996A6D1254E5BC0030475C /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		9E996A6E1254E5BC0030475C /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		9E996C0212552E300030475C /* CardScore500 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 2.xcdatamodel"; sourceTree = "<group>"; };
+		9E996DC112555DA00030475C /* CardScore500 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 3.xcdatamodel"; sourceTree = "<group>"; };
+		9E9BA851125B7DC1005ADC90 /* Bids.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bids.h; sourceTree = "<group>"; };
+		9E9BA852125B7DC1005ADC90 /* Bids.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bids.m; sourceTree = "<group>"; };
+		9E9BA8F7125BB21E005ADC90 /* DealerButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealerButtonView.h; sourceTree = "<group>"; };
+		9E9BA8F8125BB21E005ADC90 /* DealerButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealerButtonView.m; sourceTree = "<group>"; };
+		9E9BA9E7125BC6DB005ADC90 /* CardScore500 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 5.xcdatamodel"; sourceTree = "<group>"; };
+		9E9BAB5F125BEF77005ADC90 /* CardScore500 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 6.xcdatamodel"; sourceTree = "<group>"; };
+		9EA1919A126364E20005C168 /* CardScore500Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardScore500Preferences.h; sourceTree = "<group>"; };
+		9EA1925B12637EAB0005C168 /* NumberOfHandsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfHandsTableViewController.h; sourceTree = "<group>"; };
+		9EA1925C12637EAB0005C168 /* NumberOfHandsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfHandsTableViewController.m; sourceTree = "<group>"; };
+		9EE5C2031279F8A100D4CB3E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				9E996A2C1254DF7D0030475C /* QuartzCore.framework in Frameworks */,
+				9EE5C2041279F8A100D4CB3E /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* CardScore500AppDelegate.h */,
+				1D3623250D0F684500981E51 /* CardScore500AppDelegate.m */,
+				9E996A321254E3F30030475C /* GamesViewController */,
+				9E996A331254E4060030475C /* GameDetailViewController */,
+				9E996A531254E5160030475C /* RecordBids */,
+				9E996A541254E5230030475C /* RecordTricks */,
+				9E996A551254E52E0030475C /* Settings */,
+				9E996A561254E5380030475C /* Rules */,
+				9E996A571254E5470030475C /* Information */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CardScore500.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CardScore500_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				9E9BA851125B7DC1005ADC90 /* Bids.h */,
+				9E9BA852125B7DC1005ADC90 /* Bids.m */,
+				9EA1919A126364E20005C168 /* CardScore500Preferences.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E5518D2127F872D00811C2D /* Icon.png */,
+				9E551835127F6BCF00811C2D /* Default.png */,
+				9E551836127F6BCF00811C2D /* Default@2x.png */,
+				9E611D201278C7B900BC20ED /* Icon@2x.png */,
+				9E1808E0127894C0002CA889 /* CardScore500_Rules_English.html */,
+				9E1808DC1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf */,
+				2819305F112F816700ECF9B4 /* CardScore500.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* CardScore500-Info.plist */,
+				9E59BB2C126273540023D25A /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE5C2031279F8A100D4CB3E /* MessageUI.framework */,
+				9E996A2B1254DF7D0030475C /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E996A321254E3F30030475C /* GamesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A3C1254E44A0030475C /* GamesViewController.h */,
+				9E996A3D1254E44A0030475C /* GamesViewController.m */,
+				9E996A431254E4D80030475C /* GamesTableViewCell.h */,
+				9E996A441254E4D80030475C /* GamesTableViewCell.m */,
+			);
+			name = GamesViewController;
+			sourceTree = "<group>";
+		};
+		9E996A331254E4060030475C /* GameDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A4A1254E50B0030475C /* GameDetailViewController.h */,
+				9E996A4B1254E50B0030475C /* GameDetailViewController.m */,
+				9E996A481254E50B0030475C /* GameDetailPlayerView.h */,
+				9E996A491254E50B0030475C /* GameDetailPlayerView.m */,
+				9E996A4C1254E50B0030475C /* StickPersonView.h */,
+				9E996A4D1254E50B0030475C /* StickPersonView.m */,
+				9E9BA8F7125BB21E005ADC90 /* DealerButtonView.h */,
+				9E9BA8F8125BB21E005ADC90 /* DealerButtonView.m */,
+			);
+			name = GameDetailViewController;
+			sourceTree = "<group>";
+		};
+		9E996A531254E5160030475C /* RecordBids */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A5A1254E5620030475C /* RecordBidsViewController.h */,
+				9E996A5B1254E5620030475C /* RecordBidsViewController.m */,
+				9E996A581254E5620030475C /* RecordBidsPlayerView.h */,
+				9E996A591254E5620030475C /* RecordBidsPlayerView.m */,
+			);
+			name = RecordBids;
+			sourceTree = "<group>";
+		};
+		9E996A541254E5230030475C /* RecordTricks */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A5E1254E5740030475C /* RecordTricksViewController.h */,
+				9E996A5F1254E5740030475C /* RecordTricksViewController.m */,
+			);
+			name = RecordTricks;
+			sourceTree = "<group>";
+		};
+		9E996A551254E52E0030475C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A611254E5890030475C /* SettingsViewController.h */,
+				9E996A621254E5890030475C /* SettingsViewController.m */,
+				9EA1925B12637EAB0005C168 /* NumberOfHandsTableViewController.h */,
+				9EA1925C12637EAB0005C168 /* NumberOfHandsTableViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		9E996A561254E5380030475C /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A641254E5A50030475C /* RulesTextView.h */,
+				9E996A651254E5A50030475C /* RulesTextView.m */,
+				9E996A661254E5A50030475C /* RulesViewController.h */,
+				9E996A671254E5A50030475C /* RulesViewController.m */,
+				9E996A681254E5A50030475C /* ScoreChart.h */,
+				9E996A691254E5A50030475C /* ScoreChart.m */,
+			);
+			name = Rules;
+			sourceTree = "<group>";
+		};
+		9E996A571254E5470030475C /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				9E996A6D1254E5BC0030475C /* InformationViewController.h */,
+				9E996A6E1254E5BC0030475C /* InformationViewController.m */,
+			);
+			name = Information;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* cardscore500 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cardscore500" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardscore500;
+			productName = CardScore500;
+			productReference = 1D6058910D05DD3D006BFB54 /* CardScore500.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Joe Bonniwell";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardScore500" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* cardscore500 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				9E59BB2D126273540023D25A /* Settings.bundle in Resources */,
+				9E1808DD1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf in Resources */,
+				9E1808E1127894C0002CA889 /* CardScore500_Rules_English.html in Resources */,
+				9E611D211278C7B900BC20ED /* Icon@2x.png in Resources */,
+				9E551837127F6BCF00811C2D /* Default.png in Resources */,
+				9E551838127F6BCF00811C2D /* Default@2x.png in Resources */,
+				9E5518D3127F872D00811C2D /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CardScore500AppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* CardScore500.xcdatamodeld in Sources */,
+				9E996A3E1254E44A0030475C /* GamesViewController.m in Sources */,
+				9E996A451254E4D80030475C /* GamesTableViewCell.m in Sources */,
+				9E996A4E1254E50B0030475C /* GameDetailPlayerView.m in Sources */,
+				9E996A4F1254E50B0030475C /* GameDetailViewController.m in Sources */,
+				9E996A501254E50B0030475C /* StickPersonView.m in Sources */,
+				9E996A5C1254E5620030475C /* RecordBidsPlayerView.m in Sources */,
+				9E996A5D1254E5620030475C /* RecordBidsViewController.m in Sources */,
+				9E996A601254E5740030475C /* RecordTricksViewController.m in Sources */,
+				9E996A631254E5890030475C /* SettingsViewController.m in Sources */,
+				9E996A6A1254E5A50030475C /* RulesTextView.m in Sources */,
+				9E996A6B1254E5A50030475C /* RulesViewController.m in Sources */,
+				9E996A6C1254E5A50030475C /* ScoreChart.m in Sources */,
+				9E996A6F1254E5BC0030475C /* InformationViewController.m in Sources */,
+				9E9BA853125B7DC1005ADC90 /* Bids.m in Sources */,
+				9E9BA8F9125BB21E005ADC90 /* DealerButtonView.m in Sources */,
+				9EA1925D12637EAB0005C168 /* NumberOfHandsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardScore500_Prefix.pch;
+				INFOPLIST_FILE = "CardScore500-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = CardScore500;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardScore500_Prefix.pch;
+				INFOPLIST_FILE = "CardScore500-Info.plist";
+				PRODUCT_NAME = CardScore500;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E55187A127F820500811C2D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joe Bonniwell";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FE670E66-D46D-4641-B9C0-27B185BD27BB";
+				SDKROOT = iphoneos4.1;
+			};
+			name = Distribution;
+		};
+		9E55187B127F820500811C2D /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CardScore500_Prefix.pch;
+				INFOPLIST_FILE = "CardScore500-Info.plist";
+				PRODUCT_NAME = CardScore500;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "cardscore500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				9E55187B127F820500811C2D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CardScore500" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				9E55187A127F820500811C2D /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* CardScore500.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* CardScore500.xcdatamodel */,
+				9E996C0212552E300030475C /* CardScore500 2.xcdatamodel */,
+				9E996DC112555DA00030475C /* CardScore500 3.xcdatamodel */,
+				9E88DDAF125685F30044698E /* CardScore500 4.xcdatamodel */,
+				9E9BA9E7125BC6DB005ADC90 /* CardScore500 5.xcdatamodel */,
+				9E9BAB5F125BEF77005ADC90 /* CardScore500 6.xcdatamodel */,
+				9E86A39C125FE3D10086205A /* CardScore500 7.xcdatamodel */,
+				9E22FC8F12760C120078C181 /* CardScore500 8.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* CardScore500.xcdatamodel */;
+			path = CardScore500.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

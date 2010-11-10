@@ -1,0 +1,606 @@
+Tcardscore500
+v7
+r1
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004C5A4E0B00000000001D2EC0
+t1280986635
+s1912512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004C5A4DED000000000000046B
+t1280986605
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MFMailComposeViewController.h
+c000000004C5E1EEF00000000000028E4
+t1281236719
+s10468
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004C5E1EEF00000000000000CD
+t1281236719
+s205
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004C5E1EFD0000000000091C50
+t1281236733
+s597072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.h
+c000000004CCAF1F10000000000000358
+t1288368625
+s856
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.m
+c000000004CCF46540000000000000E28
+t1288652372
+s3624
+i"Bids.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld
+c000000004CC5ED710000000000000176
+t1288039793
+s374
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500Preferences.h
+c000000004CCAF1F10000000000000169
+t1288368625
+s361
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Icon.png
+c000000004CC88FE100000000000020F1
+t1288212449
+s8433
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Icon@2x.png
+c000000004CC88FE10000000000005389
+t1288212449
+s21385
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Prefix.pch
+c000000004CC9B30C0000000000000472
+t1288286988
+s1138
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"Bids.h"
+i"CardScore500Preferences.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Rules_English.html
+c000000004CC8484E000000000000038E
+t1288194126
+s910
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Rules_English_1_0.rtf
+c000000004CC85AC900000000000001DF
+t1288198857
+s479
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/CardScore500AppDelegate.h
+c000000004CCAF1F1000000000000047E
+t1288368625
+s1150
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"GamesViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m
+c000000004CCF36720000000000002FFD
+t1288648306
+s12285
+i"CardScore500AppDelegate.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/DealerButtonView.h
+c000000004CCAF1F100000000000000DC
+t1288368625
+s220
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/DealerButtonView.m
+c000000004CCF2BED0000000000000331
+t1288645613
+s817
+i"DealerButtonView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailPlayerView.h
+c000000004CCC81CB0000000000000592
+t1288470987
+s1426
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+i"DealerButtonView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailPlayerView.m
+c000000004CCF31400000000000002D85
+t1288646976
+s11653
+i"GameDetailPlayerView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailViewController.h
+c000000004CCC814F000000000000080A
+t1288470863
+s2058
+i<UIKit/UIKit.h>
+i"GameDetailPlayerView.h"
+i"RecordBidsViewController.h"
+i"RecordTricksViewController.h"
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailViewController.m
+c000000004CCC80AC0000000000005CB5
+t1288470700
+s23733
+i"GameDetailViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesTableViewCell.h
+c000000004CCAF1F100000000000000EA
+t1288368625
+s234
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesTableViewCell.m
+c000000004CCAF1F10000000000000F2E
+t1288368625
+s3886
+i"GamesTableViewCell.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesViewController.h
+c000000004CCAF1F100000000000003ED
+t1288368625
+s1005
+i<UIKit/UIKit.h>
+i"GameDetailViewController.h"
+i"SettingsViewController.h"
+i"GamesTableViewCell.h"
+i"InformationViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesViewController.m
+c000000004CCB36CB000000000000506B
+t1288386251
+s20587
+i"GamesViewController.h"
+i"CardScore500AppDelegate.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/InformationViewController.h
+c000000004CCAF1ED0000000000000192
+t1288368621
+s402
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/InformationViewController.m
+c000000004CCF38EF0000000000001BB0
+t1288648943
+s7088
+i"InformationViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.h
+c000000004CCAF1F10000000000000169
+t1288368625
+s361
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m
+c000000004CCAF1F10000000000000A63
+t1288368625
+s2659
+i"NumberOfHandsTableViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsPlayerView.h
+c000000004CCAF1F10000000000000243
+t1288368625
+s579
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m
+c000000004CCAF1F100000000000009E2
+t1288368625
+s2530
+i"RecordBidsPlayerView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsViewController.h
+c000000004CCAF1F10000000000000A77
+t1288368625
+s2679
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+i"RecordBidsPlayerView.h"
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsViewController.m
+c000000004CCAF1F100000000000056DF
+t1288368625
+s22239
+i"RecordBidsViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordTricksViewController.h
+c000000004CCAF1F1000000000000030D
+t1288368625
+s781
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordTricksViewController.m
+c000000004CCAF1F10000000000002456
+t1288368625
+s9302
+i"RecordTricksViewController.h"
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesTextView.h
+c000000004CCAF1F100000000000000DE
+t1288368625
+s222
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesTextView.m
+c000000004CCAF1F10000000000000231
+t1288368625
+s561
+i"RulesTextView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesViewController.h
+c000000004CCAF1F1000000000000019B
+t1288368625
+s411
+i<UIKit/UIKit.h>
+i"ScoreChart.h"
+i"RulesTextView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesViewController.m
+c000000004CCAF1F10000000000001412
+t1288368625
+s5138
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/ScoreChart.h
+c000000004CCAF1F100000000000000D1
+t1288368625
+s209
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/ScoreChart.m
+c000000004CCAF1F10000000000004765
+t1288368625
+s18277
+i"ScoreChart.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/SettingsViewController.h
+c000000004CCAF1F100000000000002D4
+t1288368625
+s724
+i<UIKit/UIKit.h>
+i"NumberOfHandsTableViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/SettingsViewController.m
+c000000004CCF46610000000000004922
+t1288652385
+s18722
+i"SettingsViewController.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/StickPersonView.h
+c000000004CCAF20800000000000000E3
+t1288368648
+s227
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/StickPersonView.m
+c000000004CCAF1F1000000000000098C
+t1288368625
+s2444
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Default.png
+c000000004CCF34210000000000001E24
+t1288647713
+s7716
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Default@2x.png
+c000000004CCF33CE00000000000066A0
+t1288647630
+s26272
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib
+c000000004CA4A7E500000000000021E3
+t1285859301
+s8675
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Settings.bundle
+c000000004CB240B30000000000000088
+t1286750387
+s136
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app.dSYM
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500.momd
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Icon.png
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Icon@2x.png
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Rules_English.html
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Rules_English_1_0.rtf
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/Default.png
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/Default@2x.png
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/Info.plist
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/MainWindow.nib
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/PkgInfo
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/Settings.bundle
+t2
+s0
+
+N/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m
+c000000004CCAF1F1000000000000016B
+t1288368625
+s363
+i<UIKit/UIKit.h>
+
+N/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-cpuvdqtjqeogxagjbfqimnejfrux/CardScore500_Prefix.pch.gch
+t2
+s0
+
+NCardScore500-Info.plist
+c000000004CCF4FCC00000000000003B6
+t1288654796
+s950
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/DealerButtonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesTableViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/InformationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordTricksViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesTextView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/ScoreChart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/SettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/StickPersonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/CardScore500.build/Distribution-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib"
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Icon.png CardScore500_Icon.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Icon@2x.png CardScore500_Icon@2x.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Rules_English.html CardScore500_Rules_English.html
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/CardScore500_Rules_English_1_0.rtf CardScore500_Rules_English_1_0.rtf
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/Default.png Default.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/Default@2x.png Default@2x.png
+r0
+
+CCpResource build/Distribution-iphonesimulator/CardScore500.app/Settings.bundle Settings.bundle
+r0
+
+CDataModelVersionCompile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500.momd" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld"
+r0
+
+CGenerateDSYMFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500"
+r0
+
+CLd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/CardScore500" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
+r0
+
+CProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-cpuvdqtjqeogxagjbfqimnejfrux/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CTouch "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Distribution-iphonesimulator/CardScore500.app"
+r0
+
