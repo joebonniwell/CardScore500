@@ -13,7 +13,7 @@
 - (void)loadView 
 {
 	// Navigation Bar Setup
-	[[self navigationItem] setTitle:NSLocalizedString(@"Game Detail", @"Game Detail")];	// TODO: Change to show info related to the game ( player name vs player name?)
+	[[self navigationItem] setTitle:NSLocalizedString(@"Game Detail", @"Game Detail")];
 	UIBarButtonItem *chartAndRulesNavigationButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Rules", @"Rules") style:UIBarButtonItemStylePlain target:self action:@selector(displayRules)];
 	[[self navigationItem] setRightBarButtonItem:chartAndRulesNavigationButton];
 	// Container View
@@ -51,6 +51,9 @@
 		[[self recordBidsViewController] setCurrentHand:nil];
 	if ([self recordTricksViewController])
 		[[self recordTricksViewController] setCurrentHand:nil];
+	// If this causes problems, could put a conditional check for game finished
+	NSMutableSet *hands = [[self currentGame] mutableSetValueForKey:@"hands"];
+	[self updateOrderedHandsWithHandSet:hands];
 	[self refreshNames];
 	[gameDetailHistoryView reloadData];
 	switch ([[[self currentHand] valueForKey:@"dealer"] integerValue]) 
@@ -99,23 +102,14 @@
 - (void)viewDidUnload 
 {
     [super viewDidUnload];
-	[gameDetailHistoryView release];
 	[self setGameDetailHistoryView:nil];
-	[recordBidsViewController release];
 	[self setRecordBidsViewController:nil];
-	[managedObjectContext release];
 	[self setManagedObjectContext:nil];
-	[currentGame release];
 	[self setCurrentGame:nil];
-	[player1 release];
 	[self setPlayer1:nil];
-	[player2 release];
 	[self setPlayer2:nil];
-	[player3 release];
 	[self setPlayer3:nil];
-	[player4 release];
 	[self setPlayer4:nil];
-	[orderedHands release];
 	[self setOrderedHands:nil];
 }
 
@@ -173,7 +167,11 @@
 {
 	NSMutableSet *hands = [[self currentGame] mutableSetValueForKey:@"hands"];
 	NSManagedObject *newHand = [NSEntityDescription insertNewObjectForEntityForName:@"Hand" inManagedObjectContext:[self managedObjectContext]];
-	int newIndex = [[[self currentHand] valueForKey:@"index"] integerValue] + 1;
+	int newIndex;
+	if ([[self orderedHands] count] == 0)
+		newIndex = 0;
+	else
+		newIndex = [[[self currentHand] valueForKey:@"index"] integerValue] + 1;
 	[newHand setValue:[NSNumber numberWithInt:newIndex] forKey:@"index"];
 	[newHand setValue:[NSNumber numberWithBool:NO] forKey:@"biddingComplete"];
 	[newHand setValue:[NSNumber numberWithBool:NO] forKey:@"handComplete"];
@@ -184,17 +182,22 @@
 	[newHand setValue:[[self currentGame] valueForKey:@"team24BidScore"] forKey:@"team24ScoreBidPoints"];
 	[hands addObject:newHand];
 	[[self currentGame] setValue:hands forKey:@"hands"];
+	[self updateOrderedHandsWithHandSet:hands];
+	// Refresh
+	//[gameDetailHistoryView reloadData]; TODO: Remove these lines if they are actually not needed
+	//[self refreshNames];
+}
+
+- (void)updateOrderedHandsWithHandSet:(NSMutableSet*)argHandSet
+{
 	// Update the ordered hands array	
 	NSSortDescriptor *handsSortDescriptor = [[NSSortDescriptor alloc] initWithKey:@"index" ascending:NO];
 	NSArray *handsSortDescriptors = [[NSArray alloc] initWithObjects:handsSortDescriptor, nil];
-	NSArray *tempOrderedHands = [[NSArray alloc] initWithArray:[hands sortedArrayUsingDescriptors:handsSortDescriptors]];
+	NSArray *tempOrderedHands = [[NSArray alloc] initWithArray:[argHandSet sortedArrayUsingDescriptors:handsSortDescriptors]];
 	[self setOrderedHands:tempOrderedHands];
 	[handsSortDescriptor release];
 	[handsSortDescriptors release];
 	[tempOrderedHands release];
-	// Refresh
-	[gameDetailHistoryView reloadData];
-	[self refreshNames];
 }
 
 - (void)refreshMainActionButton
@@ -217,12 +220,100 @@
 		}
 	}
 }
+#pragma mark -
+#pragma mark TableView Delegate Methods
+
+- (UITableViewCellEditingStyle)tableView:(UITableView*)argTableView editingStyleForRowAtIndexPath:(NSIndexPath*)argIndexPath
+{
+	if ([argIndexPath row] == 0)
+		return UITableViewCellEditingStyleDelete;
+	return UITableViewCellEditingStyleNone;
+}
 
 #pragma mark -
 #pragma mark TableView DataSource Methods
 
+- (void)tableView:(UITableView*)argTableView commitEditingStyle:(UITableViewCellEditingStyle)argEditingStyle forRowAtIndexPath:(NSIndexPath*)argIndexPath
+{
+	int dealer;
+	if ([[[self currentHand] valueForKey:@"handComplete"] boolValue] == NO && [[[self currentHand] valueForKey:@"winningBidder"] integerValue] < 1)
+	{
+		NSMutableSet *hands;
+		[[self managedObjectContext] deleteObject:[[self orderedHands] objectAtIndex:0]];
+		[[self managedObjectContext] save:NULL];
+		hands = [[self currentGame] mutableSetValueForKey:@"hands"];
+		[self updateOrderedHandsWithHandSet:hands];
+		// subtract the last hand's score from the game scores
+		int oldGameTeam13BidScore = [[[self currentGame] valueForKey:@"team13BidScore"] integerValue];
+		int oldGameTeam13Score = [[[self currentGame] valueForKey:@"team13Score"] integerValue];
+		int oldGameTeam24BidScore = [[[self currentGame] valueForKey:@"team24BidScore"] integerValue];
+		int oldGameTeam24Score = [[[self currentGame] valueForKey:@"team24Score"] integerValue];
+		int newGameTeam13BidScore = oldGameTeam13BidScore - [[[self currentHand] valueForKey:@"team13BidPoints"] integerValue];
+		int newGameTeam13Score = oldGameTeam13Score - ([[[self currentHand] valueForKey:@"team13BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team13OppositionPoints"] integerValue]);
+		int newGameTeam24BidScore = oldGameTeam24BidScore - [[[self currentHand] valueForKey:@"team24BidPoints"] integerValue];
+		int newGameTeam24Score = oldGameTeam24Score - ([[[self currentHand] valueForKey:@"team24BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team24OppositionPoints"] integerValue]);
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam13BidScore] forKey:@"team13BidScore"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam13Score] forKey:@"team13Score"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam24BidScore] forKey:@"team24BidScore"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam24Score] forKey:@"team24Score"];
+		// record the hand's dealer and delete the hand
+		dealer = [[[self currentHand] valueForKey:@"dealer"] integerValue];
+		[[self managedObjectContext] deleteObject:[[self orderedHands] objectAtIndex:0]];
+		[[self managedObjectContext] save:NULL];
+		hands = [[self currentGame] mutableSetValueForKey:@"hands"];
+		[self updateOrderedHandsWithHandSet:hands];
+	}
+	else if ([[[self currentGame] valueForKey:@"gameFinished"] boolValue] == YES)
+	{
+		NSMutableSet *hands;
+		[[self currentGame] setValue:[NSNumber numberWithBool:NO] forKey:@"gameFinished"];
+		int oldGameTeam13BidScore = [[[self currentGame] valueForKey:@"team13BidScore"] integerValue];
+		int oldGameTeam13Score = [[[self currentGame] valueForKey:@"team13Score"] integerValue];
+		int oldGameTeam24BidScore = [[[self currentGame] valueForKey:@"team24BidScore"] integerValue];
+		int oldGameTeam24Score = [[[self currentGame] valueForKey:@"team24Score"] integerValue];
+		int newGameTeam13BidScore = oldGameTeam13BidScore - [[[self currentHand] valueForKey:@"team13BidPoints"] integerValue];
+		int newGameTeam13Score = oldGameTeam13Score - ([[[self currentHand] valueForKey:@"team13BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team13OppositionPoints"] integerValue]);
+		int newGameTeam24BidScore = oldGameTeam24BidScore - [[[self currentHand] valueForKey:@"team24BidPoints"] integerValue];
+		int newGameTeam24Score = oldGameTeam24Score - ([[[self currentHand] valueForKey:@"team24BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team24OppositionPoints"] integerValue]);
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam13BidScore] forKey:@"team13BidScore"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam13Score] forKey:@"team13Score"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam24BidScore] forKey:@"team24BidScore"];
+		[[self currentGame] setValue:[NSNumber numberWithInt:newGameTeam24Score] forKey:@"team24Score"];
+		// record the hand's dealer and delete the hand
+		dealer = [[[self currentHand] valueForKey:@"dealer"] integerValue];
+		[[self managedObjectContext] deleteObject:[[self orderedHands] objectAtIndex:0]];
+		[[self managedObjectContext] save:NULL];
+		hands = [[self currentGame] mutableSetValueForKey:@"hands"];
+		[self updateOrderedHandsWithHandSet:hands];
+	}
+	else 
+	{
+		dealer = [[[self currentHand] valueForKey:@"dealer"] integerValue];
+		// delete the hand
+		[[self managedObjectContext] deleteObject:[self currentHand]];
+		[[self managedObjectContext] save:NULL];
+		// get the remaining hands
+		NSMutableSet *hands = [[self currentGame] mutableSetValueForKey:@"hands"];
+		[self updateOrderedHandsWithHandSet:hands];
+	}
+	[self addNewHandWithDealer:dealer];
+	NSArray *deletePathArray = [NSArray arrayWithObject:argIndexPath];
+	[argTableView deleteRowsAtIndexPaths:deletePathArray withRowAnimation:UITableViewRowAnimationFade];
+	[[self gameDetailPlayerView] moveDealerToPlayer:dealer];
+	[self refreshMainActionButton];
+}
+
+- (BOOL)tableView:(UITableView*)argTableView canEditRowAtIndexPath:(NSIndexPath*)argIndexPath
+{
+	if ([argIndexPath row] == 0)
+		return YES;
+	return NO;
+}
+
 - (NSInteger)tableView:(UITableView*)argTableView numberOfRowsInSection:(NSInteger)argSection
 {
+	if ([[[self currentGame] valueForKey:@"gameFinished"] boolValue] == NO & [[[self currentHand] valueForKey:@"winningBidder"] integerValue] < 1)
+		return ([[self orderedHands] count] - 1);
 	return [[self orderedHands] count];
 }
 
@@ -237,12 +328,14 @@
 		// Team Label
 		UILabel *tempTeamLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 150.0f, 20.0f)];
 		[tempTeamLabel setTag:kTeamLabel];
+		[tempTeamLabel setFont:[UIFont systemFontOfSize:14.0f]];
 		[tempTeamLabel setBackgroundColor:[UIColor clearColor]];
 		[[cell contentView] addSubview:tempTeamLabel];
 		[tempTeamLabel release];
 		// Bid
 		UILabel *tempBidLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, 20.0f, 150.0f, 20.0f)];
 		[tempBidLabel setTag:kBidLabel];
+		[tempBidLabel setFont:[UIFont systemFontOfSize:14.0f]];
 		[tempBidLabel setBackgroundColor:[UIColor clearColor]];
 		[[cell contentView] addSubview:tempBidLabel];
 		[tempBidLabel release];
@@ -260,10 +353,16 @@
 		[tempTeam24ScoreLabel release];
 	}
 	UILabel *teamLabel = (UILabel*)[cell viewWithTag:kTeamLabel];
-	[teamLabel setFont:[UIFont systemFontOfSize:14.0f]];	
 	UILabel *bidLabel = (UILabel*)[cell viewWithTag:kBidLabel];
-	[bidLabel setFont:[UIFont systemFontOfSize:14.0f]];
-	NSManagedObject *handForCell = [[self orderedHands] objectAtIndex:[argIndexPath row]];
+	NSManagedObject *handForCell;
+	if ([[[self currentGame] valueForKey:@"gameFinished"] boolValue] == NO && [[[self currentHand] valueForKey:@"winningBidder"] integerValue] < 1)
+	{
+		handForCell = [[self orderedHands] objectAtIndex:([argIndexPath row] + 1)];
+	}
+	else
+	{
+		handForCell = [[self orderedHands] objectAtIndex:[argIndexPath row]];
+	}	
 	switch ([[handForCell valueForKey:@"winningBidder"] integerValue]) 
 	{
 		case 1:
@@ -330,18 +429,19 @@
 	}
 	UILabel *team13ScoreLabel = (UILabel*)[cell viewWithTag:kTeam13ScoreLabel];
 	UILabel *team24ScoreLabel = (UILabel*)[cell viewWithTag:kTeam24ScoreLabel];
-	if ([argIndexPath row] == 0 && [[[self currentHand] valueForKey:@"handComplete"] boolValue] == NO)
+	if ([argIndexPath row] == 0 && [[handForCell valueForKey:@"handComplete"] boolValue] == NO)
 	{
 		[team13ScoreLabel setText:@""];
 		[team24ScoreLabel setText:@""];
 	}
 	else 
 	{
-		int tempTeam13Score = [[[[self orderedHands] objectAtIndex:[argIndexPath row]] valueForKey:@"team13ScoreTotal"] integerValue];
-		int tempTeam24Score = [[[[self orderedHands] objectAtIndex:[argIndexPath row]] valueForKey:@"team24ScoreTotal"] integerValue];
+		int tempTeam13Score = [[handForCell valueForKey:@"team13ScoreTotal"] integerValue];
+		int tempTeam24Score = [[handForCell valueForKey:@"team24ScoreTotal"] integerValue];
 		[team13ScoreLabel setText:[self formatScores:tempTeam13Score]];
 		[team24ScoreLabel setText:[self formatScores:tempTeam24Score]];
 	}
+	handForCell = nil;
 	return cell;
 }
 

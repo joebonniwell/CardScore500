@@ -17,39 +17,79 @@
     if ((self = [super initWithFrame:frame])) 
 	{
 		[self setBackgroundColor:[UIColor kAppYellowColor]];
+		// Main Action Button
+		CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
+		CGContextRef bitmapContext = CGBitmapContextCreate(NULL, 100.0f, 100.0f, 8, 0, rgbColorSpace, kCGImageAlphaPremultipliedFirst);
+		// Draw the circle
+		CGContextSetLineWidth(bitmapContext, 2.0f);
+		CGContextSetStrokeColorWithColor(bitmapContext, [[UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:1.0f] CGColor]);
+		CGContextStrokeEllipseInRect(bitmapContext, CGRectMake(6.0f, 6.0f, 88.0f, 88.0f));
+		// Save the normal state image
+		CGImageRef normalStateCGImage = CGBitmapContextCreateImage(bitmapContext);
+		UIImage *normalStateUIImage = [UIImage imageWithCGImage:normalStateCGImage];
+		CGImageRelease(normalStateCGImage);
+		// Add the gradient
+		CGColorRef radialColors[2] = {[[UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:1.0] CGColor], [[UIColor clearColor] CGColor]};
+		CFArrayRef radialColorsArray = CFArrayCreate(kCFAllocatorDefault, (const void **)radialColors, 2, &kCFTypeArrayCallBacks);
+		CGGradientRef radialGradient = CGGradientCreateWithColors(rgbColorSpace, radialColorsArray, NULL);
+		CGContextDrawRadialGradient(bitmapContext, radialGradient, CGPointMake(50.0f, 50.0f), 0.0f, CGPointMake(50.0f, 50.0f), 30.0f, 0);
+		// Save the highlighted state image
+		CGImageRef highlightedStateCGImage = CGBitmapContextCreateImage(bitmapContext);
+		UIImage *highlightedStateUIImage = [UIImage imageWithCGImage:highlightedStateCGImage];
+		CGImageRelease(highlightedStateCGImage);
+		// Main Action Button
+		UIButton *tempMainActionButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
+		[tempMainActionButton setFrame:CGRectMake(110.0f, 47.0f, 100.0f, 100.0f)];
+		[tempMainActionButton setTitle:@"Record\nTricks" forState:UIControlStateNormal];
+		[tempMainActionButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+		[tempMainActionButton setBackgroundImage:normalStateUIImage forState:UIControlStateNormal];
+		[tempMainActionButton setBackgroundImage:highlightedStateUIImage forState:UIControlStateHighlighted];
+		[tempMainActionButton addTarget:[self delegate] action:@selector(mainActionButtonPressed) forControlEvents:UIControlEventTouchUpInside];
+		[[tempMainActionButton titleLabel] setNumberOfLines:2];
+		[[tempMainActionButton titleLabel] setLineBreakMode:UILineBreakModeWordWrap];
+		[[tempMainActionButton titleLabel]setTextAlignment:UITextAlignmentCenter];
+		[self setMainActionButton:tempMainActionButton];
+		[self addSubview:[self mainActionButton]];
+		CGColorSpaceRelease(rgbColorSpace);
+		CGContextRelease(bitmapContext);
+		[tempMainActionButton release];
 		// Player 1 Name Field
-		UITextField *tempPlayer1TextField = [[UITextField alloc] initWithFrame:CGRectMake(5.0f, 27.0f, 75.0f, 25.0f)];
+		UITextField *tempPlayer1TextField = [[UITextField alloc] initWithFrame:CGRectMake(5.0f, 5.0f, 75.0f, 70.0f)];
 		[tempPlayer1TextField setBackgroundColor:[UIColor kAppYellowColor]];
 		[tempPlayer1TextField setTextAlignment:UITextAlignmentRight];
+		[tempPlayer1TextField setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 		[tempPlayer1TextField setReturnKeyType:UIReturnKeyDone];
 		[self setPlayer1TextField:tempPlayer1TextField];
 		[tempPlayer1TextField release];
 		[self addSubview:[self player1TextField]];
 		// Player 2 Name Field
-		UITextField *tempPlayer2TextField = [[UITextField alloc] initWithFrame:CGRectMake(240.0f, 27.0f, 75.0f, 25.0f)];
+		UITextField *tempPlayer2TextField = [[UITextField alloc] initWithFrame:CGRectMake(240.0f, 5.0f, 75.0f, 70.0f)];
 		[tempPlayer2TextField setBackgroundColor:[UIColor kAppYellowColor]];
 		[tempPlayer2TextField setReturnKeyType:UIReturnKeyDone];
+		[tempPlayer2TextField setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 		[self setPlayer2TextField:tempPlayer2TextField];
 		[tempPlayer2TextField release];
 		[self addSubview:[self player2TextField]];
 		// Player 3 Name Field
-		UITextField *tempPlayer3TextField = [[UITextField alloc] initWithFrame:CGRectMake(240.0f, 133.0f, 75.0f, 25.0f)];
+		UITextField *tempPlayer3TextField = [[UITextField alloc] initWithFrame:CGRectMake(240.0f, 120.0f, 75.0f, 70.0f)];
 		[tempPlayer3TextField setBackgroundColor:[UIColor kAppYellowColor]];
 		[tempPlayer3TextField setReturnKeyType:UIReturnKeyDone];
+		[tempPlayer3TextField setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 		[self setPlayer3TextField:tempPlayer3TextField];
 		[tempPlayer3TextField release];
 		[self addSubview:[self player3TextField]];
-		// Player 1 Name Field
-		UITextField *tempPlayer4TextField = [[UITextField alloc] initWithFrame:CGRectMake(5.0f, 133.0f, 75.0f, 25.0f)];
+		// Player 4 Name Field
+		UITextField *tempPlayer4TextField = [[UITextField alloc] initWithFrame:CGRectMake(5.0f, 120.0f, 75.0f, 70.0f)];
 		[tempPlayer4TextField setBackgroundColor:[UIColor kAppYellowColor]];
 		[tempPlayer4TextField setTextAlignment:UITextAlignmentRight];
+		[tempPlayer4TextField setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 		[tempPlayer4TextField setReturnKeyType:UIReturnKeyDone];
 		[self setPlayer4TextField:tempPlayer4TextField];
 		[tempPlayer4TextField release];
 		[self addSubview:[self player4TextField]];
 		//Player 1 Avatar View
-		StickPersonView *tempPlayer1AvatarView = [[StickPersonView alloc] initWithFrame:CGRectMake(0.0, 0.0f, 30.0f, 60.0f)];
-		[tempPlayer1AvatarView setCenter:CGPointMake(100.0f, 40.0f)];
+		StickPersonView *tempPlayer1AvatarView = [[StickPersonView alloc] initWithOutterFrame:CGRectMake(0.0, 0.0f, 44.0f, 60.0f) innerFrame:CGRectMake(5.0f, 0.0f, 30.0f, 60.0f)];
+		[tempPlayer1AvatarView setCenter:CGPointMake(102.0f, 40.0f)];
 		[tempPlayer1AvatarView setTag:kPlayer1Avatar];
 		[tempPlayer1AvatarView setExclusiveTouch:YES];
 		UITapGestureRecognizer *player1DoubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(assignDealerToPlayer1:)];
@@ -59,8 +99,8 @@
 		[self addSubview:tempPlayer1AvatarView];
 		[tempPlayer1AvatarView release];
 		//Player 2 Avatar View
-		StickPersonView *tempPlayer2AvatarView = [[StickPersonView alloc] initWithFrame:CGRectMake(0.0, 0.0f, 30.0f, 60.0f)];
-		[tempPlayer2AvatarView setCenter:CGPointMake(220.0f, 40.0f)];
+		StickPersonView *tempPlayer2AvatarView = [[StickPersonView alloc] initWithOutterFrame:CGRectMake(0.0, 0.0f, 44.0f, 60.0f) innerFrame:CGRectMake(9.0f, 0.0f, 30.0f, 60.0f)];
+		[tempPlayer2AvatarView setCenter:CGPointMake(218.0f, 40.0f)];
 		[tempPlayer2AvatarView setTag:kPlayer2Avatar];
 		UITapGestureRecognizer *player2DoubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(assignDealerToPlayer2:)];
 		[player2DoubleTapGestureRecognizer setNumberOfTapsRequired:2];
@@ -69,8 +109,8 @@
 		[self addSubview:tempPlayer2AvatarView];
 		[tempPlayer2AvatarView release];
 		//Player 3 Avatar View
-		StickPersonView *tempPlayer3AvatarView = [[StickPersonView alloc] initWithFrame:CGRectMake(0.0, 0.0f, 30.0f, 60.0f)];
-		[tempPlayer3AvatarView setCenter:CGPointMake(220.0f, 145.0f)];
+		StickPersonView *tempPlayer3AvatarView = [[StickPersonView alloc] initWithOutterFrame:CGRectMake(0.0, 0.0f, 44.0f, 60.0f) innerFrame:CGRectMake(9.0f, 0.0f, 30.0f, 60.0f)];
+		[tempPlayer3AvatarView setCenter:CGPointMake(218.0f, 155.0f)];
 		[tempPlayer3AvatarView setTag:kPlayer3Avatar];
 		UITapGestureRecognizer *player3DoubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(assignDealerToPlayer3:)];
 		[player3DoubleTapGestureRecognizer setNumberOfTapsRequired:2];
@@ -79,8 +119,8 @@
 		[self addSubview:tempPlayer3AvatarView];
 		[tempPlayer3AvatarView release];
 		//Player 4 Avatar View
-		StickPersonView *tempPlayer4AvatarView = [[StickPersonView alloc] initWithFrame:CGRectMake(0.0, 0.0f, 30.0f, 60.0f)];
-		[tempPlayer4AvatarView setCenter:CGPointMake(100.0f, 145.0f)];
+		StickPersonView *tempPlayer4AvatarView = [[StickPersonView alloc] initWithOutterFrame:CGRectMake(0.0, 0.0f, 44.0f, 60.0f) innerFrame:CGRectMake(5.0f, 0.0f, 30.0f, 60.0f)];
+		[tempPlayer4AvatarView setCenter:CGPointMake(102.0f, 155.0f)];
 		[tempPlayer4AvatarView setTag:kPlayer4Avatar];
 		UITapGestureRecognizer *player4DoubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(assignDealerToPlayer4:)];
 		[player4DoubleTapGestureRecognizer setNumberOfTapsRequired:2];
@@ -106,48 +146,6 @@
 		[self setTeam24ScoreNameLabel:tempTeam24ScoreNameLabel];
 		[self addSubview:[self team24ScoreNameLabel]];
 		[tempTeam24ScoreNameLabel release];
-		// Main Action Button
-		CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
-		CGContextRef bitmapContext = CGBitmapContextCreate(NULL, 100.0f, 100.0f, 8, 0, rgbColorSpace, kCGImageAlphaPremultipliedFirst);
-		// Draw the circle
-		CGContextSetLineWidth(bitmapContext, 2.0f);
-		//CGContextSetFlatness(bitmapContext, 0.1f);
-		//CGContextSetInterpolationQuality(currentContext, kCGInterpolationHigh);
-		//CGContextSetAllowsAntialiasing(bitmapContext, NO);
-		//CGContextSetShouldAntialias(bitmapContext, NO);
-		CGContextSetStrokeColorWithColor(bitmapContext, [[UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:1.0f] CGColor]);
-		CGContextStrokeEllipseInRect(bitmapContext, CGRectMake(6.0f, 6.0f, 88.0f, 88.0f));
-		//CGContextAddArc(bitmapContext, 50.0f, 50.0f, 44.0f, 0.0f, 2.0f*M_PI, 0);
-		//CGContextStrokePath(bitmapContext);
-		// Save the normal state image
-		CGImageRef normalStateCGImage = CGBitmapContextCreateImage(bitmapContext);
-		UIImage *normalStateUIImage = [UIImage imageWithCGImage:normalStateCGImage];
-		CGImageRelease(normalStateCGImage);
-		// Add the gradient
-		CGColorRef radialColors[2] = {[[UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:1.0] CGColor], [[UIColor clearColor] CGColor]};
-		CFArrayRef radialColorsArray = CFArrayCreate(kCFAllocatorDefault, (const void **)radialColors, 2, &kCFTypeArrayCallBacks);
-		CGGradientRef radialGradient = CGGradientCreateWithColors(rgbColorSpace, radialColorsArray, NULL);
-		CGContextDrawRadialGradient(bitmapContext, radialGradient, CGPointMake(50.0f, 50.0f), 0.0f, CGPointMake(50.0f, 50.0f), 30.0f, 0);
-		// Save the highlighted state image
-		CGImageRef highlightedStateCGImage = CGBitmapContextCreateImage(bitmapContext);
-		UIImage *highlightedStateUIImage = [UIImage imageWithCGImage:highlightedStateCGImage];
-		CGImageRelease(highlightedStateCGImage);
-		// Main Action Button
-		UIButton *tempMainActionButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
-		[tempMainActionButton setFrame:CGRectMake(110.0f, 50.0f, 100.0f, 100.0f)];
-		[tempMainActionButton setTitle:@"Record\nTricks" forState:UIControlStateNormal];
-		[tempMainActionButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-		[tempMainActionButton setBackgroundImage:normalStateUIImage forState:UIControlStateNormal];
-		[tempMainActionButton setBackgroundImage:highlightedStateUIImage forState:UIControlStateHighlighted];
-		[tempMainActionButton addTarget:[self delegate] action:@selector(mainActionButtonPressed) forControlEvents:UIControlEventTouchUpInside];
-		[[tempMainActionButton titleLabel] setNumberOfLines:2];
-		[[tempMainActionButton titleLabel] setLineBreakMode:UILineBreakModeWordWrap];
-		[[tempMainActionButton titleLabel]setTextAlignment:UITextAlignmentCenter];
-		[self setMainActionButton:tempMainActionButton];
-		[self addSubview:[self mainActionButton]];
-		CGColorSpaceRelease(rgbColorSpace);
-		CGContextRelease(bitmapContext);
-		[tempMainActionButton release];
 		// Dealer Button
 		UILabel *tempDealerLabel = [[UILabel alloc] initWithFrame:CGRectMake(114.0f, 35.0f, 20.0f, 20.0f)];
 		[tempDealerLabel setBackgroundColor:[UIColor clearColor]];
@@ -209,10 +207,10 @@
 			[UIView animateWithDuration:0.25 animations:^{[[self dealerLabel] setCenter:CGPointMake(200.0f, 45.0f)];}];
 			break;
 		case 3:
-			[UIView animateWithDuration:0.25 animations:^{[[self dealerLabel] setCenter:CGPointMake(200.0f, 151.0f)];}];
+			[UIView animateWithDuration:0.25 animations:^{[[self dealerLabel] setCenter:CGPointMake(200.0f, 159.0f)];}];
 			break;
 		case 4:
-			[UIView animateWithDuration:0.25f animations:^{[[self dealerLabel] setCenter:CGPointMake(124.0f, 151.0f)];}];
+			[UIView animateWithDuration:0.25f animations:^{[[self dealerLabel] setCenter:CGPointMake(124.0f, 159.0f)];}];
 			break;
 		default:
 			break;

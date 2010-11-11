@@ -10,7 +10,9 @@
 
 @interface StickPersonView : UIView 
 {
-
+	CGRect innerFrame;
 }
+
+- (id)initWithOutterFrame:(CGRect)argOutterFrame innerFrame:(CGRect)argInnerFrame;
 
 @end

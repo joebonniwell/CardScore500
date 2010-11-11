@@ -104,6 +104,7 @@
 		9EA1925B12637EAB0005C168 /* NumberOfHandsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfHandsTableViewController.h; sourceTree = "<group>"; };
 		9EA1925C12637EAB0005C168 /* NumberOfHandsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfHandsTableViewController.m; sourceTree = "<group>"; };
 		9EE5C2031279F8A100D4CB3E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9EEAD03B128B6DC100C0BFE3 /* CardScore500 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 9.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -497,6 +498,7 @@
 				9E9BAB5F125BEF77005ADC90 /* CardScore500 6.xcdatamodel */,
 				9E86A39C125FE3D10086205A /* CardScore500 7.xcdatamodel */,
 				9E22FC8F12760C120078C181 /* CardScore500 8.xcdatamodel */,
+				9EEAD03B128B6DC100C0BFE3 /* CardScore500 9.xcdatamodel */,
 			);
 			currentVersion = 28C3AD890F43EF2300507BA6 /* CardScore500.xcdatamodel */;
 			path = CardScore500.xcdatamodeld;

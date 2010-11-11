@@ -21,13 +21,27 @@
 	[self setView:tempMainView];
 	[tempMainView release];
 	// TableView
-	UITableView *tempTricksTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 120.0f, 320.0f, 296.0f) style:UITableViewStylePlain];
+	UITableView *tempTricksTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 120.0f, 320.0f, 252.0f) style:UITableViewStylePlain];
 	[tempTricksTableView setDelegate:self];
 	[tempTricksTableView setDataSource:self];
 	[tempTricksTableView setBackgroundColor:[UIColor kAppYellowColor]];
 	[self setTricksTableView:tempTricksTableView];
 	[[self view] addSubview:[self tricksTableView]];
 	[tempTricksTableView release];
+	// Toolbar with record tricks button
+	UIToolbar *tempBottomToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0f, 372.0f, 320.0f, 44.0f)];
+	[tempBottomToolbar setBarStyle:UIBarStyleDefault];
+	[tempBottomToolbar setTintColor:[UIColor brownColor]];
+	[self setBottomToolbar:tempBottomToolbar];
+	[[self view] addSubview:[self bottomToolbar]];
+	[tempBottomToolbar release];
+	// RecordTricks toolbar button
+	UIBarButtonItem *tempRecordTricksButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Record Tricks", @"Record Tricks") style:UIBarButtonItemStyleBordered target:self action:@selector(recordTricks)];
+	[tempRecordTricksButton setWidth:300.0f];
+	[tempRecordTricksButton setEnabled:NO];
+	UIBarButtonItem *tempFlexibleSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:nil action:nil];
+	NSArray *tempToolbarItems = [NSArray arrayWithObjects:tempFlexibleSpace, tempRecordTricksButton, tempFlexibleSpace, nil];
+	[[self bottomToolbar] setItems:tempToolbarItems];
 	// Header view with teams
 	StickPersonView *tempPlayerA = [[StickPersonView alloc] initWithFrame:CGRectMake(10.0f, 10.0f, 30.0f, 60.0f)];
 	[[self view] addSubview:tempPlayerA];
@@ -46,6 +60,8 @@
 	[self setTeamNameLabel:tempTeamNameLabel];
 	[[self view] addSubview:[self teamNameLabel]];
 	[tempTeamNameLabel release];
+	// Reset selectedTricks
+	selectedTricks = -1;
 }
 
 - (void)viewWillAppear:(BOOL)argAnimated
@@ -73,12 +89,10 @@
     [super dealloc];
 }
 
-#pragma mark -
-#pragma mark TableView Delegate
-
-- (void)tableView:(UITableView*)argTableView didSelectRowAtIndexPath:(NSIndexPath*)argIndexPath
+- (void)recordTricks
 {
-	int selectedTricks = [argIndexPath row];
+	if (selectedTricks < 0)
+		return;
 	[[self currentHand] setValue:[NSNumber numberWithInt:selectedTricks] forKey:@"winningBidTeamTricksTaken"];
 	int tempWinningBidder = [[[self currentHand] valueForKey:@"winningBidder"] integerValue];
 	if (tempWinningBidder == kNoWinner)	// No winning bidder
@@ -147,6 +161,11 @@
 			}
 		}
 	}
+	// Reset selectedTricks
+	selectedTricks = -1;
+	// Disable the recordTricksbutton
+	UIBarButtonItem *recordTricksButton = [[[self bottomToolbar] items] objectAtIndex:1];
+	[recordTricksButton setEnabled:NO];
 	// Team13
 	int tempTeam13ScoreBidPoints = [[[self currentHand] valueForKey:@"team13BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team13ScoreBidPoints"] integerValue];
 	int tempTeam13ScoreTotal = [[[self currentHand] valueForKey:@"team13BidPoints"] integerValue] + [[[self currentHand] valueForKey:@"team13OppositionPoints"] integerValue] + [[[self currentHand] valueForKey:@"team13ScoreTotal"] integerValue];
@@ -161,8 +180,20 @@
 	[[self currentHand] setValue:[NSNumber numberWithBool:YES] forKey:@"handComplete"];
 	// Trigger an update to the game scores in the GameDetailViewController, also checks if the game is finished and what not
 	[delegate handCompleted];
-	[argTableView deselectRowAtIndexPath:argIndexPath animated:YES];
 	[[self navigationController] popViewControllerAnimated:YES];
+}
+
+#pragma mark -
+#pragma mark TableView Delegate
+
+- (void)tableView:(UITableView*)argTableView didSelectRowAtIndexPath:(NSIndexPath*)argIndexPath
+{
+	selectedTricks = [argIndexPath row];
+	[argTableView reloadData];
+	[argTableView deselectRowAtIndexPath:argIndexPath animated:YES];
+	// Enable the recordTricksButton
+	UIBarButtonItem *recordTricksButton = [[[self bottomToolbar] items] objectAtIndex:1];
+	[recordTricksButton setEnabled:YES];
 }
 
 #pragma mark -
@@ -184,6 +215,10 @@
 	}
 	[[cell textLabel] setTextAlignment:UITextAlignmentCenter];
 	[[cell textLabel] setText:[NSString stringWithFormat:@"%d Tricks", [argIndexPath row]]];
+	if ([argIndexPath row] == selectedTricks)
+		[cell setAccessoryType:UITableViewCellAccessoryCheckmark];
+	else
+		[cell setAccessoryType:UITableViewCellAccessoryNone];
 	return cell;
 }
 
@@ -191,4 +226,5 @@
 @synthesize delegate;
 @synthesize currentHand;
 @synthesize tricksTableView;
+@synthesize bottomToolbar;
 @end

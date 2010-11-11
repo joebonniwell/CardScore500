@@ -1,37 +1,40 @@
 TCardScore500
 v7
 r0
-t310338272.247298
+t311192940.529621
 cCheck dependencies
-cProcessInfoPlistFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
-cCompileXIB "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib"
+cProcessInfoPlistFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
+cCompileXIB "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/MainWindow.xib"
 cCpResource build/Debug-iphonesimulator/CardScore500.app/Settings.bundle Settings.bundle
 cCpResource build/Debug-iphonesimulator/CardScore500.app/CardScore500_Rules_English_1_0.rtf CardScore500_Rules_English_1_0.rtf
 cCpResource build/Debug-iphonesimulator/CardScore500.app/CardScore500_Rules_English.html CardScore500_Rules_English.html
-cCpResource build/Debug-iphonesimulator/CardScore500.app/CardScore500_Icon_114.png CardScore500_Icon_114.png
-cProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-frpalcnlbtbkfzcstsihwhljdnbd/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelVersionCompile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld"
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/main.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/CardScore500AppDelegate.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/GamesViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/GamesTableViewCell.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GamesTableViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/GameDetailPlayerView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/GameDetailViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/GameDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/StickPersonView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/StickPersonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/RecordBidsPlayerView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/RecordBidsViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordBidsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/RecordTricksViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RecordTricksViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/SettingsViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/SettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/RulesTextView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesTextView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/RulesViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/RulesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/ScoreChart.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/ScoreChart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/InformationViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/InformationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/DealerButtonView.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/DealerButtonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
-cGenerateDSYMFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"
-cTouch "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"
+cCpResource build/Debug-iphonesimulator/CardScore500.app/Icon@2x.png Icon@2x.png
+cCpResource build/Debug-iphonesimulator/CardScore500.app/Default.png Default.png
+cCpResource build/Debug-iphonesimulator/CardScore500.app/Default@2x.png Default@2x.png
+cCpResource build/Debug-iphonesimulator/CardScore500.app/Icon.png Icon.png
+cProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelVersionCompile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld"
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
+cGenerateDSYMFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"
+cTouch "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
 c000000004C6C30170000000000000110
@@ -611,6 +614,433 @@ t1288368625
 s363
 i<UIKit/UIKit.h>
 
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.h
+c000000004CCAF1F10000000000000358
+t1288368625
+s856
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m
+c000000004CCF46540000000000000E28
+t1288652372
+s3624
+i"Bids.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld
+c000000004CDB365B0000000000000198
+t1289434715
+s408
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500Preferences.h
+c000000004CCAF1F10000000000000169
+t1288368625
+s361
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500_Prefix.pch
+c000000004CC9B30C0000000000000472
+t1288286988
+s1138
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"Bids.h"
+i"CardScore500Preferences.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500_Rules_English.html
+c000000004CC8484E000000000000038E
+t1288194126
+s910
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500_Rules_English_1_0.rtf
+c000000004CC85AC900000000000001DF
+t1288198857
+s479
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.h
+c000000004CCAF1F1000000000000047E
+t1288368625
+s1150
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"GamesViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m
+c000000004CCF36720000000000002FFD
+t1288648306
+s12285
+i"CardScore500AppDelegate.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.h
+c000000004CCAF1F100000000000000DC
+t1288368625
+s220
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m
+c000000004CCF2BED0000000000000331
+t1288645613
+s817
+i"DealerButtonView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.h
+c000000004CCC81CB0000000000000592
+t1288470987
+s1426
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+i"DealerButtonView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m
+c000000004CDC35E80000000000002E78
+t1289500136
+s11896
+i"GameDetailPlayerView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.h
+c000000004CDB28E7000000000000084B
+t1289431271
+s2123
+i<UIKit/UIKit.h>
+i"GameDetailPlayerView.h"
+i"RecordBidsViewController.h"
+i"RecordTricksViewController.h"
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m
+c000000004CDC22C20000000000007430
+t1289495234
+s29744
+i"GameDetailViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.h
+c000000004CCAF1F100000000000000EA
+t1288368625
+s234
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m
+c000000004CCAF1F10000000000000F2E
+t1288368625
+s3886
+i"GamesTableViewCell.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.h
+c000000004CCAF1F100000000000003ED
+t1288368625
+s1005
+i<UIKit/UIKit.h>
+i"GameDetailViewController.h"
+i"SettingsViewController.h"
+i"GamesTableViewCell.h"
+i"InformationViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m
+c000000004CCB36CB000000000000506B
+t1288386251
+s20587
+i"GamesViewController.h"
+i"CardScore500AppDelegate.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.h
+c000000004CCAF1ED0000000000000192
+t1288368621
+s402
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i<MessageUI/MFMailComposeViewController.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m
+c000000004CCF38EF0000000000001BB0
+t1288648943
+s7088
+i"InformationViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.h
+c000000004CCAF1F10000000000000169
+t1288368625
+s361
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m
+c000000004CCAF1F10000000000000A63
+t1288368625
+s2659
+i"NumberOfHandsTableViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.h
+c000000004CCAF1F10000000000000243
+t1288368625
+s579
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m
+c000000004CCAF1F100000000000009E2
+t1288368625
+s2530
+i"RecordBidsPlayerView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.h
+c000000004CCAF1F10000000000000A77
+t1288368625
+s2679
+i<UIKit/UIKit.h>
+i"StickPersonView.h"
+i"RecordBidsPlayerView.h"
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m
+c000000004CCAF1F100000000000056DF
+t1288368625
+s22239
+i"RecordBidsViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.h
+c000000004CDAD2C2000000000000038C
+t1289409218
+s908
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m
+c000000004CDAE8A70000000000002B0F
+t1289414823
+s11023
+i"RecordTricksViewController.h"
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.h
+c000000004CCAF1F100000000000000DE
+t1288368625
+s222
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m
+c000000004CCAF1F10000000000000231
+t1288368625
+s561
+i"RulesTextView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.h
+c000000004CCAF1F1000000000000019B
+t1288368625
+s411
+i<UIKit/UIKit.h>
+i"ScoreChart.h"
+i"RulesTextView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m
+c000000004CCAF1F10000000000001412
+t1288368625
+s5138
+i"RulesViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.h
+c000000004CCAF1F100000000000000D1
+t1288368625
+s209
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m
+c000000004CCAF1F10000000000004765
+t1288368625
+s18277
+i"ScoreChart.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.h
+c000000004CCAF1F100000000000002D4
+t1288368625
+s724
+i<UIKit/UIKit.h>
+i"NumberOfHandsTableViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m
+c000000004CCF46610000000000004922
+t1288652385
+s18722
+i"SettingsViewController.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.h
+c000000004CDC2B88000000000000014A
+t1289497480
+s330
+i<UIKit/UIKit.h>
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m
+c000000004CDC33AD0000000000000C13
+t1289499565
+s3091
+i"StickPersonView.h"
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default.png
+c000000004CCF34210000000000001E24
+t1288647713
+s7716
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default@2x.png
+c000000004CCF33CE00000000000066A0
+t1288647630
+s26272
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon.png
+c000000004CC88FE100000000000020F1
+t1288212449
+s8433
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon@2x.png
+c000000004CC88FE10000000000005389
+t1288212449
+s21385
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/MainWindow.xib
+c000000004CA4A7E500000000000021E3
+t1285859301
+s8675
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Settings.bundle
+c000000004CB240B30000000000000088
+t1286750387
+s136
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o
+t1289408336
+s17232
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500.LinkFileList
+c000000004CDACF4D0000000000000C7C
+t1289408333
+s3196
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o
+t1289497491
+s85604
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o
+t1289408336
+s39788
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o
+t1289500136
+s85140
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o
+t1289497492
+s149960
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o
+t1289408335
+s51744
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o
+t1289497491
+s108116
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o
+t1289408336
+s65624
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o
+t1289408336
+s48576
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o
+t1289497492
+s47536
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o
+t1289497492
+s135448
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o
+t1289497492
+s81672
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o
+t1289408336
+s38196
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o
+t1289408336
+s51192
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o
+t1289408336
+s85504
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o
+t1289408336
+s85024
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o
+t1289499565
+s44000
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o
+t1289408335
+s9580
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app
+t1289500137
+s510
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM
+t1289500137
+s102
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
+t1289500136
+s284788
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd
+t1289434723
+s408
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500_Rules_English.html
+t1288470936
+s910
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500_Rules_English_1_0.rtf
+t1288470936
+s479
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Default.png
+t1289408333
+s7716
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Default@2x.png
+t1289408333
+s26272
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Icon.png
+t1289408333
+s8433
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Icon@2x.png
+t1289408333
+s21385
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist
+t1289408333
+s639
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/MainWindow.nib
+t1288470937
+s989
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo
+t1289408333
+s8
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Settings.bundle
+t1288470936
+s136
+
+N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m
+c000000004CCAF1F1000000000000016B
+t1288368625
+s363
+i<UIKit/UIKit.h>
+
 N/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-apaitvqhxhuceycminwpkzuvhndr/CardScore500_Prefix.pch.gch
 t1288287751
 s16109424
@@ -626,6 +1056,10 @@ s16109424
 N/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ehmswqjecrikgzfntrhciyrikike/CardScore500_Prefix.pch.gch
 t1286294648
 s16105296
+
+N/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch.gch
+t1289408334
+s16109424
 
 N/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-feceoszzjnlpvoclzkqtlrqytivo/CardScore500_Prefix.pch.gch
 t1285860657
@@ -644,13 +1078,13 @@ t1286553609
 s16105296
 
 NCardScore500-Info.plist
-c000000004CCAF1F100000000000003CF
-t1288368625
-s975
+c000000004CD23FDA0000000000000371
+t1288847322
+s881
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies310338272#310338272#0(0"0(0#1#0"8627462336#0"0#
+lSLF07#2@18"Check dependencies311192940#311192940#0(0"0(0#1#0"8650595072#0"0#
 
 CCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310163739.404145
@@ -941,6 +1375,240 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m310163738#310163738#0(0"0(0#0#91"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m8611459744#2604"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-frpalcnlbtbkfzcstsihwhljdnbd/CardScore500_Prefix.pch -c "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/main.m" -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/main.o"0#
 
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.293719
+e311101136.383275
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m311101136#311101136#0(0"0(0#0#76"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m8617974816#2439"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Bids.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/Bids.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190291.369160
+e311190291.559916
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@111"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m311190291#311190291#0(0"0(0#0#103"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m8620907264#2485"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/CardScore500AppDelegate.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500AppDelegate.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.323869
+e311101136.444005
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m311101136#311101136#0(0"0(0#0#96"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m8617490144#2471"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/DealerButtonView.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/DealerButtonView.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311192936.560313
+e311192936.857066
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m311192936#311192936#0(0"0(0#0#100"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m8656246880#2479"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailPlayerView.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailPlayerView.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190291.670685
+e311190292.077563
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m311190291#311190292#0(0"0(0#0#104"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m8683526368#2487"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GameDetailViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GameDetailViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101135.201894
+e311101135.321279
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@106"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m311101135#311101135#0(0"0(0#0#98"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m8608871968#2475"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesTableViewCell.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesTableViewCell.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190291.370949
+e311190291.670584
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m311190291#311190291#0(0"0(0#0#99"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m8619969824#2477"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.174972
+e311101136.293609
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m311101136#311101136#0(0"0(0#0#105"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m8609684384#2489"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.383383
+e311101136.473781
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m311101136#311101136#0(0"0(0#0#112"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m8610159232#2503"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190291.956733
+e311190292.040971
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m311190291#311190292#0(0"0(0#0#100"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m8656263520#2479"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsPlayerView.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsPlayerView.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190292.041072
+e311190292.329266
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@112"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m311190292#311190292#0(0"0(0#0#104"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m8687945408#2487"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordBidsViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordBidsViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311190292.077716
+e311190292.221697
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@114"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m311190292#311190292#0(0"0(0#0#106"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m8683498912#2491"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RecordTricksViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RecordTricksViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101135.984754
+e311101136.092572
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m311101135#311101136#0(0"0(0#0#93"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m8617098144#2465"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesTextView.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesTextView.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.059445
+e311101136.174872
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m311101136#311101136#0(0"0(0#0#99"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m8618018176#2477"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/RulesViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/RulesViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101136.092690
+e311101136.323770
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m311101136#311101136#0(0"0(0#0#90"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m8617384288#2459"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/ScoreChart.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/ScoreChart.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101135.860313
+e311101136.059350
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m311101135#311101136#0(0"0(0#0#102"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m8617921216#2483"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/SettingsViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/SettingsViewController.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311192365.442744
+e311192365.600398
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m311192365#311192365#0(0"0(0#0#95"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m8692887296#2469"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/StickPersonView.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/StickPersonView.o"0#
+
+CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101134.927408
+e311101135.066741
+r1
+xCompileC
+xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m311101134#311101135#0(0"0(0#0#76"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m8604770880#2439"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/main.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/main.o"0#
+
 CCompileXIB "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib"
 s310163736.883849
 e310163737.237731
@@ -948,6 +1616,9 @@ r1
 xCompileXIB
 x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib310163736#310163737#0(0"0(0#0#99"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib8633680512#781"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/MainWindow.nib" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/MainWindow.xib"
+r0
 
 CCpResource build/Debug-iphonesimulator/CardScore500.app/CardScore500_Icon_1.png CardScore500_Icon_1.png
 s308797192.772050
@@ -1012,6 +1683,42 @@ xbuild/Debug-iphonesimulator/CardScore500.app/CardScore500_Rules_English_1_0.rtf
 xCardScore500_Rules_English_1_0.rtf
 lSLF07#2@39"Copy CardScore500_Rules_English_1_0.rtf310163736#310163736#0(0"0(0#0#119"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Rules_English_1_0.rtf8628598656#689"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Rules_English_1_0.rtf" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
 
+CCpResource build/Debug-iphonesimulator/CardScore500.app/Default.png Default.png
+s311101133.778716
+e311101133.812189
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CardScore500.app/Default.png
+xDefault.png
+lSLF07#2@16"Copy Default.png311101133#311101133#0(0"0(0#0#81"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default.png8617192256#621"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default.png" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+
+CCpResource build/Debug-iphonesimulator/CardScore500.app/Default@2x.png Default@2x.png
+s311101133.793232
+e311101133.812298
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CardScore500.app/Default@2x.png
+xDefault@2x.png
+lSLF07#2@19"Copy Default@2x.png311101133#311101133#0(0"0(0#0#84"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default@2x.png8609391008#624"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Default@2x.png" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+
+CCpResource build/Debug-iphonesimulator/CardScore500.app/Icon.png Icon.png
+s311101133.794582
+e311101133.814705
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CardScore500.app/Icon.png
+xIcon.png
+lSLF07#2@13"Copy Icon.png311101133#311101133#0(0"0(0#0#78"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon.png8607705888#618"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon.png" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+
+CCpResource build/Debug-iphonesimulator/CardScore500.app/Icon@2x.png Icon@2x.png
+s311101133.762629
+e311101133.812067
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/CardScore500.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@16"Copy Icon@2x.png311101133#311101133#0(0"0(0#0#81"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon@2x.png8617626592#621"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Icon@2x.png" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+
 CCpResource build/Debug-iphonesimulator/CardScore500.app/Settings.bundle Settings.bundle
 s310163736.889037
 e310163736.958613
@@ -1070,6 +1777,59 @@ o/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardSco
 o/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
 lSLF07#2@112"DataModelVersionCompile build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd CardScore500.xcdatamodeld310163738#310163738#0(8870"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 40(22@54"game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@87"hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@87"hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@137"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@135"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel309732593#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@135"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel309732593#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@135"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel309732593#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 310163738#18446744073709551615#0#0(6@135"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel309732593#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 310163738#18446744073709551615#0#0(6@135"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel309732593#0#0#0#0#0"0(0#0#110"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld8613750784#607"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500.xcdatamodeld" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd"0#
 
+CDataModelVersionCompile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld"
+s311127522.655888
+e311127523.088714
+r1
+xDataModelVersionCompile
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse 
+o/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 
+lSLF07#2@112"DataModelVersionCompile build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd CardScore500.xcdatamodeld311127522#311127523#0(9076"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:hand.game: warning: hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player4: warning: game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player2: warning: game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player1: warning: game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel:game.player3: warning: game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel:Hand.game: warning: Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player4: warning: Game.player4 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player2: warning: Game.player2 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player1: warning: Game.player1 -- relationship does not have an inverse /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel:Game.player3: warning: Game.player3 -- relationship does not have an inverse 44(22@54"game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@54"game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@87"hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 2.xcdatamodel309726675#0#0#0#0#0"0(22@87"hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 3.xcdatamodel307584416#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 4.xcdatamodel307660275#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 5.xcdatamodel308004571#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 6.xcdatamodel308014967#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127522#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 7.xcdatamodel308274129#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 8.xcdatamodel309726226#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel311127489#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel311127489#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel311127489#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel311127489#0#0#0#0#0"0(22@87"Hand.game -- relationship has -No Action- for delete rule, this is an advanced setting 311127523#18446744073709551615#0#0(6@122"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500 9.xcdatamodel311127489#0#0#0#0#0"0(22@54"Game.player4 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@120"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel311127515#0#0#0#0#0"0(22@54"Game.player2 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@120"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel311127515#0#0#0#0#0"0(22@54"Game.player1 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@120"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel311127515#0#0#0#0#0"0(22@54"Game.player3 -- relationship does not have an inverse 311127523#18446744073709551615#0#0(6@120"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld/CardScore500.xcdatamodel311127515#0#0#0#0#0"0(0#0#95"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld8632813184#562"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500.xcdatamodeld" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd"0#
+
 CGenerateDSYMFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"
 s310338272.191696
 e310338272.244300
@@ -1078,6 +1838,15 @@ xGenerateDSYMFile
 x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM
 x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
 lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CardScore500.app.dSYM build/Debug-iphonesimulator/CardScore500.app/CardScore500310338272#310338272#0(0"0(0#0#142"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore5008627360768#604"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM"0#
+
+CGenerateDSYMFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"
+s311192936.956904
+e311192937.025754
+r1
+xGenerateDSYMFile
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CardScore500.app.dSYM build/Debug-iphonesimulator/CardScore500.app/CardScore500311192936#311192937#0(0"0(0#0#127"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore5008673980096#559"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM"0#
 
 CLd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
 s310338272.138144
@@ -1089,6 +1858,16 @@ xnormal
 xi386
 lSLF07#2@147"Link /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500310338272#310338272#0(0"0(0#0#0"8674793088#1290"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" "-F/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" -filelist "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/CardScore500.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -framework MessageUI -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"0#
 
+CLd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
+s311192936.857158
+e311192936.956801
+r1
+xLd
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
+xnormal
+xi386
+lSLF07#2@132"Link /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500311192936#311192936#0(0"0(0#0#0"8689750528#1215"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" -filelist "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -framework MessageUI -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"0#
+
 CProcessInfoPlistFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
 s310163736.863309
 e310163736.883758
@@ -1097,6 +1876,15 @@ xProcessInfoPlistFile
 x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist
 xCardScore500-Info.plist
 lSLF07#2@31"Process CardScore500-Info.plist310163736#310163736#0(0"0(0#0#108"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500-Info.plist8602108480#700"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CardScore500-Info.plist -genpkginfo "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist"0#
+
+CProcessInfoPlistFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
+s311101133.713234
+e311101133.762247
+r1
+xProcessInfoPlistFile
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist
+xCardScore500-Info.plist
+lSLF07#2@31"Process CardScore500-Info.plist311101133#311101133#0(0"0(0#0#93"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500-Info.plist8600087616#655"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CardScore500-Info.plist -genpkginfo "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist"0#
 
 CProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-apaitvqhxhuceycminwpkzuvhndr/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s309980550.514457
@@ -1149,6 +1937,19 @@ xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@34"Precompile CardScore500_Prefix.pch307987447#307987448#0(0"0(0#0#108"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Prefix.pch8590393600#2381"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/DerivedSources" -c "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500_Prefix.pch" -o /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ehmswqjecrikgzfntrhciyrikike/CardScore500_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311101133.814795
+e311101134.927174
+r1
+xProcessPCH
+x/var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch.gch
+xCardScore500_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile CardScore500_Prefix.pch311101133#311101134#0(0"0(0#0#93"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500_Prefix.pch8607276960#2293"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500_Prefix.pch" -o /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-feceoszzjnlpvoclzkqtlrqytivo/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s307553457.080656
@@ -1209,4 +2010,12 @@ r1
 xTouch
 x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app
 lSLF07#2@135"Touch /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app310338272#310338272#0(0"0(0#0#0"8624022976#441"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+
+CTouch "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"
+s311192937.025968
+e311192937.030314
+r1
+xTouch
+x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app
+lSLF07#2@120"Touch /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app311192937#311192937#0(0"0(0#0#0"8693231360#411"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
 

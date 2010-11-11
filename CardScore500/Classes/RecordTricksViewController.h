@@ -20,9 +20,14 @@
 	UILabel *teamNameLabel;
 	NSManagedObject *currentHand;
 	UITableView *tricksTableView;
+	UIToolbar *bottomToolbar;
+	int selectedTricks;
 }
 @property (nonatomic, retain) UILabel *teamNameLabel;
 @property (nonatomic, assign) GameDetailViewController *delegate;
 @property (nonatomic, retain) NSManagedObject *currentHand;
 @property (nonatomic, retain) UITableView *tricksTableView;
+@property (nonatomic, retain) UIToolbar *bottomToolbar;
+
+- (void)recordTricks;
 @end

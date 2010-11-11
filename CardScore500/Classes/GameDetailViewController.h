@@ -54,4 +54,5 @@
 - (void)addNewHandWithDealer:(int)argDealer;
 - (void)refreshMainActionButton;
 - (NSManagedObject*)currentHand;
+- (void)updateOrderedHandsWithHandSet:(NSMutableSet*)argHandSet;
 @end
