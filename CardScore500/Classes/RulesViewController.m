@@ -97,7 +97,7 @@
 }
 
 @synthesize rulesWebView;
-
+@synthesize shadowHolder;
 @end
 
 

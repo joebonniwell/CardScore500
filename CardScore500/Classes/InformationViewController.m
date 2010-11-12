@@ -76,6 +76,26 @@
 	[changePlayerNameDescriptionLabel setText:NSLocalizedString(@"To change a player's name, single tap on the name.", @"To change a player's name, single tap on the name.")];
 	[[self view] addSubview:changePlayerNameDescriptionLabel];
 	[changePlayerNameDescriptionLabel release];
+	// How to fix an error title label
+	UILabel *fixErrorTitleLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.0f, 320.0f, 300.0f, 25.0f)];
+	[fixErrorTitleLabel setBackgroundColor:[UIColor kAppYellowColor]];
+	[fixErrorTitleLabel setLineBreakMode:UILineBreakModeWordWrap];
+	[fixErrorTitleLabel setNumberOfLines:0];
+	[fixErrorTitleLabel setFont:[UIFont systemFontOfSize:20.0f]];
+	[fixErrorTitleLabel setTextColor:[UIColor colorWithRed:0.22 green:0.33 blue:0.53 alpha:1.0]];
+	[fixErrorTitleLabel setText:NSLocalizedString(@"How to delete the last hand", @"How to delete the last hand")];
+	[[self view] addSubview:fixErrorTitleLabel];
+	[fixErrorTitleLabel release];
+	// How to fix an error description
+	UILabel *fixErrorDescriptionLabel = [[UILabel alloc] initWithFrame:CGRectMake(20.0f, 350.0f, 300.0f, 50.0f)];
+	[fixErrorDescriptionLabel setBackgroundColor:[UIColor kAppYellowColor]];
+	[fixErrorDescriptionLabel setLineBreakMode:UILineBreakModeWordWrap];
+	[fixErrorDescriptionLabel setNumberOfLines:0];
+	[fixErrorDescriptionLabel setFont:[UIFont systemFontOfSize:14.0f]];
+	[fixErrorDescriptionLabel setText:NSLocalizedString(@"Swipe horizontally across the top hand shown, then tap delete.", @"Swipe horizontally across the top hand shown, then tap delete.")];
+	[[self view] addSubview:fixErrorDescriptionLabel];
+	[fixErrorDescriptionLabel release];
+	
 }
 
 - (void)viewDidUnload 

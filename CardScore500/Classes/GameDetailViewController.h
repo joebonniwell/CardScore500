@@ -11,6 +11,7 @@
 #import "RecordBidsViewController.h"
 #import "RecordTricksViewController.h"
 #import "RulesViewController.h"
+#import "CurvedShadow.h"
 
 @class CardScore500AppDelegate;
 
@@ -34,6 +35,7 @@
 	BOOL newGameFlag;
 	int switchDealerRequested;
 	BOOL hintWasDisplayed;
+	CurvedShadow *shadowHolder;
 }
 
 @property (nonatomic, retain) UITableView *gameDetailHistoryView;
@@ -48,6 +50,7 @@
 @property (nonatomic, retain) NSManagedObject *player4;
 @property (nonatomic, retain) NSArray *orderedHands;
 @property BOOL newGameFlag;
+@property (nonatomic, retain) CurvedShadow *shadowHolder;
 
 - (void)refreshNames;
 - (NSString*)formatScores:(int)argScore;

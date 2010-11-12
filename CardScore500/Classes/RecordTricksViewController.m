@@ -8,6 +8,7 @@
 
 #import "RecordTricksViewController.h"
 #import "StickPersonView.h"
+#import "CurvedShadow.h"
 
 @implementation RecordTricksViewController
 
@@ -21,13 +22,19 @@
 	[self setView:tempMainView];
 	[tempMainView release];
 	// TableView
-	UITableView *tempTricksTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 120.0f, 320.0f, 252.0f) style:UITableViewStylePlain];
+	UITableView *tempTricksTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 152.0f, 320.0f, 220.0f) style:UITableViewStylePlain];
 	[tempTricksTableView setDelegate:self];
 	[tempTricksTableView setDataSource:self];
 	[tempTricksTableView setBackgroundColor:[UIColor kAppYellowColor]];
 	[self setTricksTableView:tempTricksTableView];
 	[[self view] addSubview:[self tricksTableView]];
 	[tempTricksTableView release];
+	// Shadow
+	CurvedShadow *curvedShadow = [[CurvedShadow alloc] initWithFrame:CGRectMake(0.0f, 152.0f, 320.0f, 10.0f)];
+	[self setShadowHolder:curvedShadow];
+	[curvedShadow release];
+	[[self view] addSubview:[self shadowHolder]];
+	[[self shadowHolder] setHidden:YES];
 	// Toolbar with record tricks button
 	UIToolbar *tempBottomToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0.0f, 372.0f, 320.0f, 44.0f)];
 	[tempBottomToolbar setBarStyle:UIBarStyleDefault];
@@ -43,19 +50,19 @@
 	NSArray *tempToolbarItems = [NSArray arrayWithObjects:tempFlexibleSpace, tempRecordTricksButton, tempFlexibleSpace, nil];
 	[[self bottomToolbar] setItems:tempToolbarItems];
 	// Header view with teams
-	StickPersonView *tempPlayerA = [[StickPersonView alloc] initWithFrame:CGRectMake(10.0f, 10.0f, 30.0f, 60.0f)];
+	StickPersonView *tempPlayerA = [[StickPersonView alloc] initWithFrame:CGRectMake(10.0f, 18.0f, 30.0f, 60.0f)];
 	[[self view] addSubview:tempPlayerA];
 	[tempPlayerA release];
-	StickPersonView *tempPlayerB = [[StickPersonView alloc] initWithFrame:CGRectMake(30.0, 60.0f, 30.0f, 60.0f)];
+	StickPersonView *tempPlayerB = [[StickPersonView alloc] initWithFrame:CGRectMake(30.0, 76.0f, 30.0f, 60.0f)];
 	[[self view] addSubview:tempPlayerB];
 	[tempPlayerB release];
 	// Labels
-	UILabel *tempRecordTricksLabel = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 5.0f, 260.0f, 50.0f)];
+	UILabel *tempRecordTricksLabel = [[UILabel alloc] initWithFrame:CGRectMake(60.0f, 13.0f, 260.0f, 50.0f)];
 	[tempRecordTricksLabel setText:NSLocalizedString(@"Record tricks taken by:", @"Record tricks taken by:")];
 	[tempRecordTricksLabel setBackgroundColor:[UIColor kAppYellowColor]];
 	[[self view] addSubview:tempRecordTricksLabel];
 	[tempRecordTricksLabel release];
-	UILabel *tempTeamNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(80.0f, 60.0f, 240.0f, 50.0f)];
+	UILabel *tempTeamNameLabel = [[UILabel alloc] initWithFrame:CGRectMake(80.0f, 76.0f, 240.0f, 50.0f)];
 	[tempTeamNameLabel setBackgroundColor:[UIColor kAppYellowColor]];
 	[self setTeamNameLabel:tempTeamNameLabel];
 	[[self view] addSubview:[self teamNameLabel]];
@@ -186,6 +193,46 @@
 #pragma mark -
 #pragma mark TableView Delegate
 
+- (void)scrollViewDidScroll:(UIScrollView*)argScrollView
+{
+	[[self shadowHolder] setHidden:NO];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView*)argScrollView willDecelerate:(BOOL)argDecelerate
+{
+	if (argDecelerate == NO)
+	{
+		NSArray *indexes = [[self tricksTableView] indexPathsForVisibleRows];
+		BOOL zeroShown = NO;
+		BOOL cancel = NO;
+		for (NSIndexPath *index in indexes)
+		{
+			if ([index row] == 0)
+				zeroShown = YES;
+			if ([index row] == 5)
+				cancel = YES;
+		}
+		if (zeroShown == YES && cancel == NO)
+			[[self shadowHolder] setHidden:YES];
+	}
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView*)argScrollView
+{
+	NSArray *indexes = [[self tricksTableView] indexPathsForVisibleRows];
+	BOOL zeroShown = NO;
+	BOOL cancel = NO;
+	for (NSIndexPath *index in indexes)
+	{
+		if ([index row] == 0)
+			zeroShown = YES;
+		if ([index row] == 5)
+			cancel = YES;
+	}
+	if (zeroShown == YES && cancel == NO)
+		[[self shadowHolder] setHidden:YES];
+}
+
 - (void)tableView:(UITableView*)argTableView didSelectRowAtIndexPath:(NSIndexPath*)argIndexPath
 {
 	selectedTricks = [argIndexPath row];
@@ -227,4 +274,5 @@
 @synthesize currentHand;
 @synthesize tricksTableView;
 @synthesize bottomToolbar;
+@synthesize shadowHolder;
 @end

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 @class GameDetailViewController;
+@class CurvedShadow;
 
 @protocol RecordTricksDelegate
 - (NSString*)winningTeamName;
@@ -22,12 +23,14 @@
 	UITableView *tricksTableView;
 	UIToolbar *bottomToolbar;
 	int selectedTricks;
+	CurvedShadow *shadowHolder;
 }
 @property (nonatomic, retain) UILabel *teamNameLabel;
 @property (nonatomic, assign) GameDetailViewController *delegate;
 @property (nonatomic, retain) NSManagedObject *currentHand;
 @property (nonatomic, retain) UITableView *tricksTableView;
 @property (nonatomic, retain) UIToolbar *bottomToolbar;
+@property (nonatomic, retain) CurvedShadow *shadowHolder;
 
 - (void)recordTricks;
 @end

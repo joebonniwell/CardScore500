@@ -10,6 +10,7 @@
 #import "StickPersonView.h"
 #import "RecordBidsPlayerView.h"
 #import "RulesViewController.h"
+#import "CurvedShadow.h"
 
 #define kClearLastBidButton 90
 
@@ -36,6 +37,7 @@
 	UIToolbar *bottomToolbar;
 	NSArray *toolbarSingleButtonItems;
 	NSArray *toolbarDoubleButtonItems;
+	CurvedShadow *shadowHolder;
 	// Controllers
 	RulesViewController *rulesViewController;
 	GameDetailViewController *delegate;
@@ -48,6 +50,7 @@
 	NSMutableArray *availableBidsScores;
 	NSMutableArray *availableBidsKeys;
 	NSIndexPath *selectedBidIndexPath;
+	BOOL scrollingToTop;
 }
 // Views
 @property (nonatomic, retain) UITableView *bidsTableView;
@@ -58,6 +61,7 @@
 @property (nonatomic, retain) UIToolbar *bottomToolbar;
 @property (nonatomic, retain) NSArray *toolbarDoubleButtonItems;
 @property (nonatomic, retain) NSArray *toolbarSingleButtonItems;
+@property (nonatomic, retain) CurvedShadow *shadowHolder;
 // Controllers
 @property (nonatomic, retain) RulesViewController *rulesViewController;
 @property (nonatomic, assign) GameDetailViewController *delegate;

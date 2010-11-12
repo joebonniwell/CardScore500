@@ -56,33 +56,39 @@
 	[singleButtonArray release];
 	[doubleButtonArray release];
 	// Bids TableView
-	UITableView *tempBidsTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 120.0f, 320.0f, 252.0f) style:UITableViewStylePlain];
+	UITableView *tempBidsTableView = [[UITableView alloc] initWithFrame:CGRectMake(0.0f, 152.0f, 320.0f, 220.0f) style:UITableViewStylePlain];
 	[tempBidsTableView setDelegate:self];
 	[tempBidsTableView setDataSource:self];
 	[tempBidsTableView setBackgroundColor:[UIColor kAppYellowColor]];
 	[self setBidsTableView:tempBidsTableView];
 	[tempBidsTableView release];
 	[[self view] addSubview:[self bidsTableView]];
+	// Shadow Holder
+	CurvedShadow *curvedShadow = [[CurvedShadow alloc] initWithFrame:CGRectMake(0.0f, 152.0f, 320.0f, 10.0f)];
+	[self setShadowHolder:curvedShadow];
+	[curvedShadow release];
+	[[self view] addSubview:[self shadowHolder]];
+	[[self shadowHolder] setHidden:YES];
 	// First Bid Player View
-	RecordBidsPlayerView *tempPlayer1View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionLeft andFrame:CGRectMake(10.0f, 5.0f, 120.0f, 50.0f)];
+	RecordBidsPlayerView *tempPlayer1View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionLeft andFrame:CGRectMake(10.0f, 13.0f, 120.0f, 50.0f)];
 	[tempPlayer1View setAlpha:0.25f];
 	[self setPlayer1View:tempPlayer1View];
 	[[self view] addSubview:tempPlayer1View];
 	[tempPlayer1View release];
 	// Second Bid Player View
-	RecordBidsPlayerView *tempPlayer2View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionRight andFrame:CGRectMake(190.0f, 5.0f, 120.0f, 50.0f)];
+	RecordBidsPlayerView *tempPlayer2View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionRight andFrame:CGRectMake(190.0f, 13.0f, 120.0f, 50.0f)];
 	[tempPlayer2View setAlpha:0.25f];
 	[self setPlayer2View:tempPlayer2View];
 	[[self view] addSubview:tempPlayer2View];
 	[tempPlayer2View release];
 	// Third Bid Player View
-	RecordBidsPlayerView *tempPlayer3View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionRight andFrame:CGRectMake(190.0f, 65.0f, 120.0f, 50.0f)];
+	RecordBidsPlayerView *tempPlayer3View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionRight andFrame:CGRectMake(190.0f, 81.0f, 120.0f, 50.0f)];
 	[tempPlayer3View setAlpha:0.25f];
 	[self setPlayer3View:tempPlayer3View];
 	[[self view] addSubview:tempPlayer3View];
 	[tempPlayer3View release];
 	// Fourth Bid Player View
-	RecordBidsPlayerView *tempPlayer4View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionLeft andFrame:CGRectMake(10.0f, 65.0f, 120.0f, 50.0f)];
+	RecordBidsPlayerView *tempPlayer4View = [[RecordBidsPlayerView alloc] initWithLabelPosition:kLabelPositionLeft andFrame:CGRectMake(10.0f, 81.0f, 120.0f, 50.0f)];
 	[tempPlayer4View setAlpha:0.25f];
 	[self setPlayer4View:tempPlayer4View];
 	[[self view] addSubview:tempPlayer4View];
@@ -180,6 +186,11 @@
 						  nil]];
 }
 
+- (void)viewDidLoad
+{
+	scrollingToTop = NO;
+}
+
 - (void)viewWillAppear:(BOOL)animated
 {	
 	// TODO: Check for newGame flag and make a new hand here....
@@ -200,37 +211,23 @@
 {
     [super viewDidUnload];
 	// Views
-	[bidsTableView release];
 	[self setBidsTableView:nil];
-	[player1View release];
 	[self setPlayer1View:nil];
-	[player2View release];
 	[self setPlayer2View:nil];
-	[player3View release];
 	[self setPlayer3View:nil];
-	[player4View release];
 	[self setPlayer4View:nil];
-	[bottomToolbar release];
 	[self setBottomToolbar:nil];
+	[self setShadowHolder:nil];
 	// Controllers
-	[rulesViewController release];
 	[self setRulesViewController:nil];
 	// Data
-    [currentHand release];
 	[self setCurrentHand:nil];
-	[allBidsNames release];
 	[self setAllBidsNames:nil];
-	[allBidsScores release];
 	[self setAllBidsScores:nil];
-	[allBidsKeys release];
 	[self setAllBidsKeys:nil];
-	[availableBidsNames release];
 	[self setAvailableBidsNames:nil];
-	[availableBidsScores release];
 	[self setAvailableBidsScores:nil];
-	[availableBidsKeys release];
 	[self setAvailableBidsKeys:nil];
-	[selectedBidIndexPath release];
 	[self setSelectedBidIndexPath:nil];
 }
 
@@ -242,6 +239,7 @@
 	[player2View release];
 	[player3View release];
 	[player4View release];
+	[shadowHolder release];
 	// Controllers
 	[rulesViewController release];	
 	// Data
@@ -259,6 +257,55 @@
 
 #pragma mark -
 #pragma mark TableView Delegate Methods
+
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView*)argScrollView
+{
+	if (scrollingToTop == YES)
+	{
+		[[self shadowHolder] setHidden:YES];
+		scrollingToTop = NO;
+	}
+}
+
+- (void)scrollViewDidScroll:(UIScrollView*)argScrollView
+{
+	[[self shadowHolder] setHidden:NO];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView*)argScrollView willDecelerate:(BOOL)argDecelerate
+{
+	if (argDecelerate == NO)
+	{
+		NSArray *indexes = [[self bidsTableView] indexPathsForVisibleRows];
+		BOOL zeroShown = NO;
+		BOOL cancel = NO;
+		for (NSIndexPath *index in indexes)
+		{
+			if ([index row] == 0)
+				zeroShown = YES;
+			if ([index row] == 5)
+				cancel = YES;
+		}
+		if (zeroShown == YES && cancel == NO)
+			[[self shadowHolder] setHidden:YES];
+	}
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView*)argScrollView
+{
+	NSArray *indexes = [[self bidsTableView] indexPathsForVisibleRows];
+	BOOL zeroShown = NO;
+	BOOL cancel = NO;
+	for (NSIndexPath *index in indexes)
+	{
+		if ([index row] == 0)
+			zeroShown = YES;
+		if ([index row] == 5)
+			cancel = YES;
+	}
+	if (zeroShown == YES && cancel == NO)
+		[[self shadowHolder] setHidden:YES];
+}
 
 - (void)tableView:(UITableView*)argTableView didSelectRowAtIndexPath:(NSIndexPath*)argIndexPath
 {
@@ -371,6 +418,7 @@
 		[bidsTableView reloadData];
 		NSUInteger zeroIndex[2] = {0, 0};
 		[[self bidsTableView] scrollToRowAtIndexPath:[NSIndexPath indexPathWithIndexes:zeroIndex length:2] atScrollPosition:UITableViewScrollPositionTop animated:YES];
+		scrollingToTop = YES;
 		if ([[[self bottomToolbar] items] isEqualToArray:[self toolbarSingleButtonItems]])
 			[[self bottomToolbar] setItems:[self toolbarDoubleButtonItems]];
 	}
@@ -562,6 +610,7 @@
 @synthesize bottomToolbar;
 @synthesize toolbarDoubleButtonItems;
 @synthesize toolbarSingleButtonItems;
+@synthesize shadowHolder;
 // Controllers
 @synthesize rulesViewController;
 @synthesize delegate;

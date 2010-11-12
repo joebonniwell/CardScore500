@@ -33,7 +33,7 @@
 	[[self view] addSubview:tempGameDetailPlayerView];
 	[tempGameDetailPlayerView release];
 	// GameDetailHistoryView Setup
-	UITableView *tempGameDetailHistoryTableView = [[UITableView alloc] initWithFrame:CGRectMake(10.0f, 230.0f, 300.0f, 180.0f) style:UITableViewStylePlain];
+	UITableView *tempGameDetailHistoryTableView = [[UITableView alloc] initWithFrame:CGRectMake(10.0f, 234.0f, 300.0f, 176.0f) style:UITableViewStylePlain];
 	[tempGameDetailHistoryTableView setDelegate:self];
 	[tempGameDetailHistoryTableView	setDataSource:self];
 	[tempGameDetailHistoryTableView setTag:kGameDetailHistoryView];
@@ -43,6 +43,12 @@
 	[self setGameDetailHistoryView:tempGameDetailHistoryTableView];
 	[tempGameDetailHistoryTableView release];
 	[[self view] addSubview:[self gameDetailHistoryView]];
+	// Shadow View
+	CurvedShadow *curvedShadow = [[CurvedShadow alloc] initWithFrame:CGRectMake(10.0f, 230.0, 300.0f, 10.0f)];
+	[self setShadowHolder:curvedShadow];
+	[curvedShadow release];
+	[[self view] addSubview:[self shadowHolder]];
+	[[self shadowHolder] setHidden:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -80,7 +86,7 @@
 {
 	if ([self newGameFlag] && gFirstRun == YES && hintWasDisplayed == NO)
 	{
-		UIAlertView *hintAlertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Welcome!", @"Welcome!") message:[NSString stringWithFormat:@"%@\n%@", NSLocalizedString(@"To change a player name, tap on the name.", @"To change a player name, tap on the name."), NSLocalizedString(@"To change the dealer, double tap on the player's figure.", @"To change the dealer, double tap on the player's figure.")] delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", @"OK") otherButtonTitles:nil];
+		UIAlertView *hintAlertView = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Welcome!", @"Welcome!") message:[NSString stringWithFormat:@"%@\n%@\n\n%@\n%@\n\n%@", NSLocalizedString(@"To change a player name,", @"To change a player name,"), NSLocalizedString(@"tap on the name", @"tap on the name"), NSLocalizedString(@"To change the dealer,", @"To change the dealer,"), NSLocalizedString(@"double tap on the player icon", @"double tap on the player icon"), NSLocalizedString(@"Find more hints on the info screen", @"Find more hints on the info screen")] delegate:nil cancelButtonTitle:NSLocalizedString(@"OK", @"OK") otherButtonTitles:nil];
 		[hintAlertView show];
 		[hintAlertView release];
 		hintWasDisplayed = YES;
@@ -90,13 +96,6 @@
 - (void)viewWillDisappear:(BOOL)animated
 {
 	[[self view] endEditing:YES];
-}
-
-- (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 - (void)viewDidUnload 
@@ -111,6 +110,7 @@
 	[self setPlayer3:nil];
 	[self setPlayer4:nil];
 	[self setOrderedHands:nil];
+	[self setShadowHolder:nil];
 }
 
 - (void)dealloc 
@@ -124,6 +124,7 @@
 	[player3 release];
 	[player4 release];
 	[orderedHands release];
+	[shadowHolder release];
     [super dealloc];
 }
 
@@ -183,9 +184,6 @@
 	[hands addObject:newHand];
 	[[self currentGame] setValue:hands forKey:@"hands"];
 	[self updateOrderedHandsWithHandSet:hands];
-	// Refresh
-	//[gameDetailHistoryView reloadData]; TODO: Remove these lines if they are actually not needed
-	//[self refreshNames];
 }
 
 - (void)updateOrderedHandsWithHandSet:(NSMutableSet*)argHandSet
@@ -222,6 +220,46 @@
 }
 #pragma mark -
 #pragma mark TableView Delegate Methods
+
+- (void)scrollViewDidScroll:(UIScrollView*)argScrollView
+{
+	[[self shadowHolder] setHidden:NO];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView*)argScrollView willDecelerate:(BOOL)argDecelerate
+{
+	if (argDecelerate == NO)
+	{
+		NSArray *indexes = [[self gameDetailHistoryView] indexPathsForVisibleRows];
+		BOOL zeroShown = NO;
+		BOOL cancel = NO;
+		for (NSIndexPath *index in indexes)
+		{
+			if ([index row] == 0)
+				zeroShown = YES;
+				if ([index row] == 4)
+					cancel = YES;
+		}
+		if (zeroShown == YES && cancel == NO)
+			[[self shadowHolder] setHidden:YES];
+	}
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView*)argScrollView
+{
+	NSArray *indexes = [[self gameDetailHistoryView] indexPathsForVisibleRows];
+	BOOL zeroShown = NO;
+	BOOL cancel = NO;
+	for (NSIndexPath *index in indexes)
+	{
+		if ([index row] == 0)
+			zeroShown = YES;
+		if ([index row] == 4)
+			cancel = YES;
+	}
+	if (zeroShown == YES && cancel == NO)
+		[[self shadowHolder] setHidden:YES];
+}
 
 - (UITableViewCellEditingStyle)tableView:(UITableView*)argTableView editingStyleForRowAtIndexPath:(NSIndexPath*)argIndexPath
 {
@@ -656,4 +694,5 @@
 @synthesize player3;
 @synthesize player4;
 @synthesize orderedHands;
+@synthesize shadowHolder;
 @end

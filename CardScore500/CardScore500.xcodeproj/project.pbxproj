@@ -17,6 +17,7 @@
 		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
 		9E1808DD1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9E1808DC1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf */; };
 		9E1808E1127894C0002CA889 /* CardScore500_Rules_English.html in Resources */ = {isa = PBXBuildFile; fileRef = 9E1808E0127894C0002CA889 /* CardScore500_Rules_English.html */; };
+		9E30B560128CB9D4007F4DEB /* CurvedShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E30B55F128CB9D4007F4DEB /* CurvedShadow.m */; };
 		9E551837127F6BCF00811C2D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E551835127F6BCF00811C2D /* Default.png */; };
 		9E551838127F6BCF00811C2D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E551836127F6BCF00811C2D /* Default@2x.png */; };
 		9E5518D3127F872D00811C2D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E5518D2127F872D00811C2D /* Icon.png */; };
@@ -58,6 +59,8 @@
 		9E1808DC1278930E002CA889 /* CardScore500_Rules_English_1_0.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = CardScore500_Rules_English_1_0.rtf; sourceTree = "<group>"; };
 		9E1808E0127894C0002CA889 /* CardScore500_Rules_English.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CardScore500_Rules_English.html; sourceTree = "<group>"; };
 		9E22FC8F12760C120078C181 /* CardScore500 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CardScore500 8.xcdatamodel"; sourceTree = "<group>"; };
+		9E30B55E128CB9D4007F4DEB /* CurvedShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurvedShadow.h; sourceTree = "<group>"; };
+		9E30B55F128CB9D4007F4DEB /* CurvedShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurvedShadow.m; sourceTree = "<group>"; };
 		9E551835127F6BCF00811C2D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9E551836127F6BCF00811C2D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9E5518D2127F872D00811C2D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				9E996A4D1254E50B0030475C /* StickPersonView.m */,
 				9E9BA8F7125BB21E005ADC90 /* DealerButtonView.h */,
 				9E9BA8F8125BB21E005ADC90 /* DealerButtonView.m */,
+				9E30B55E128CB9D4007F4DEB /* CurvedShadow.h */,
+				9E30B55F128CB9D4007F4DEB /* CurvedShadow.m */,
 			);
 			name = GameDetailViewController;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				9E9BA853125B7DC1005ADC90 /* Bids.m in Sources */,
 				9E9BA8F9125BB21E005ADC90 /* DealerButtonView.m in Sources */,
 				9EA1925D12637EAB0005C168 /* NumberOfHandsTableViewController.m in Sources */,
+				9E30B560128CB9D4007F4DEB /* CurvedShadow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
