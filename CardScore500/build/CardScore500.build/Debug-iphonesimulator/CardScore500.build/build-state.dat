@@ -1,7 +1,7 @@
 TCardScore500
 v7
 r0
-t311284086.110113
+t311442613.330686
 cCheck dependencies
 cProcessInfoPlistFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
 cCompileXIB "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/MainWindow.xib"
@@ -765,8 +765,8 @@ i<MessageUI/MFMailComposeViewController.h>
 i<QuartzCore/QuartzCore.h>
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m
-c000000004CDD99D100000000000020F7
-t1289591249
+c000000004CDDA6AC00000000000020F7
+t1289594540
 s8439
 i"InformationViewController.h"
 
@@ -957,7 +957,7 @@ t1289586645
 s108276
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o
-t1289591250
+t1289749812
 s68472
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o
@@ -1001,15 +1001,15 @@ t1289408335
 s9580
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app
-t1289591250
+t1289749813
 s510
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM
-t1289591250
+t1289749813
 s102
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
-t1289591250
+t1289749812
 s297660
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500.momd
@@ -1041,7 +1041,7 @@ t1289408333
 s21385
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist
-t1289408333
+t1289749811
 s639
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/MainWindow.nib
@@ -1049,7 +1049,7 @@ t1288470937
 s989
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo
-t1289408333
+t1289749811
 s8
 
 N/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Settings.bundle
@@ -1099,13 +1099,13 @@ t1286553609
 s16105296
 
 NCardScore500-Info.plist
-c000000004CD23FDA0000000000000371
-t1288847322
+c000000004CDDA7CE0000000000000371
+t1289594830
 s881
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies311284086#311284086#0(0"0(0#1#0"8620335264#0"0#
+lSLF07#2@18"Check dependencies311442611#311442611#0(0"0(0#1#0"27866456492998768#0"0#
 
 CCompileC build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/Bids.o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/Bids.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s310163739.404145
@@ -1501,8 +1501,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@107"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m311279445#311279445#0(0"0(0#0#99"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m8620267392#2477"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/GamesViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/GamesViewController.o"0#
 
 CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s311284050.370483
-e311284050.635146
+s311442611.819428
+e311442612.457115
 r1
 xCompileC
 xbuild/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o
@@ -1511,7 +1511,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@113"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m311284050#311284050#0(0"0(0#0#105"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m8621710336#2489"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o"0#
+lSLF07#2@113"Compile /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m311442611#311442612#0(0"0(0#0#105"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m8608113984#2489"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40000 -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-generated-files.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-own-target-headers.hmap" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-all-target-headers.hmap" -iquote "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/CardScore500-project-headers.hmap" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/include" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources/i386" "-I/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/DerivedSources" -include /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-ekrlnykgaddgmjaqksvkxghgssdo/CardScore500_Prefix.pch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/InformationViewController.m" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/InformationViewController.o"0#
 
 CCompileC build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/NumberOfHandsTableViewController.o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/Classes/NumberOfHandsTableViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s311101136.383383
@@ -1874,13 +1874,13 @@ x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardSco
 lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CardScore500.app.dSYM build/Debug-iphonesimulator/CardScore500.app/CardScore500310338272#310338272#0(0"0(0#0#142"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore5008627360768#604"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM"0#
 
 CGenerateDSYMFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM" "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"
-s311284050.841286
-e311284050.904662
+s311442612.945166
+e311442613.273674
 r1
 xGenerateDSYMFile
 x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM
 x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
-lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CardScore500.app.dSYM build/Debug-iphonesimulator/CardScore500.app/CardScore500311284050#311284050#0(0"0(0#0#127"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore5008621934464#559"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM"0#
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/CardScore500.app.dSYM build/Debug-iphonesimulator/CardScore500.app/CardScore500311442612#311442613#0(0"0(0#0#127"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore5008608160032#559"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app.dSYM"0#
 
 CLd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
 s310338272.138144
@@ -1893,14 +1893,14 @@ xi386
 lSLF07#2@147"Link /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500310338272#310338272#0(0"0(0#0#0"8674793088#1290"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" "-F/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator" -filelist "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/CardScore500.build/Objects-normal/i386/CardScore500.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -framework MessageUI -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"0#
 
 CLd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500" normal i386
-s311284050.780474
-e311284050.841178
+s311442612.457246
+e311442612.945009
 r1
 xLd
 x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500
 xnormal
 xi386
-lSLF07#2@132"Link /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500311284050#311284050#0(0"0(0#0#0"8623714144#1215"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" -filelist "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -framework MessageUI -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"0#
+lSLF07#2@132"Link /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500311442612#311442612#0(0"0(0#0#0"8608943168#1215"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk "-L/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" "-F/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator" -filelist "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/CardScore500.build/Debug-iphonesimulator/cardscore500.build/Objects-normal/i386/CardScore500.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework QuartzCore -framework MessageUI -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/CardScore500"0#
 
 CProcessInfoPlistFile "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
 s310163736.863309
@@ -1912,13 +1912,13 @@ xCardScore500-Info.plist
 lSLF07#2@31"Process CardScore500-Info.plist310163736#310163736#0(0"0(0#0#108"/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/CardScore500-Info.plist8602108480#700"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CardScore500-Info.plist -genpkginfo "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist"0#
 
 CProcessInfoPlistFile "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist" CardScore500-Info.plist
-s311101133.713234
-e311101133.762247
+s311442611.789352
+e311442611.816098
 r1
 xProcessInfoPlistFile
 x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist
 xCardScore500-Info.plist
-lSLF07#2@31"Process CardScore500-Info.plist311101133#311101133#0(0"0(0#0#93"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500-Info.plist8600087616#655"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CardScore500-Info.plist -genpkginfo "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist"0#
+lSLF07#2@31"Process CardScore500-Info.plist311442611#311442611#0(0"0(0#0#93"/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/CardScore500-Info.plist6009053564883661824#655"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility CardScore500-Info.plist -genpkginfo "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app/Info.plist"0#
 
 CProcessPCH /var/folders/DC/DCvHzFfEHQqsFRiH4vHtWE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CardScore500_Prefix-apaitvqhxhuceycminwpkzuvhndr/CardScore500_Prefix.pch.gch CardScore500_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s309980550.514457
@@ -2046,10 +2046,10 @@ x/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardSco
 lSLF07#2@135"Touch /Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app310338272#310338272#0(0"0(0#0#0"8624022976#441"    cd "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/joebonniwell/Documents/iOS Development/CardScore500/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
 
 CTouch "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"
-s311284050.904756
-e311284050.907150
+s311442613.273768
+e311442613.330567
 r1
 xTouch
 x/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app
-lSLF07#2@120"Touch /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app311284050#311284050#0(0"0(0#0#0"8619465472#411"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
+lSLF07#2@120"Touch /Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app311442613#311442613#0(0"0(0#0#0"8610554592#411"    cd "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/joebonniwell/Dropbox/iOS Development/CardScore500/CardScore500/build/Debug-iphonesimulator/CardScore500.app"0#
 

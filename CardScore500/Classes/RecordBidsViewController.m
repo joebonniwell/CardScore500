@@ -193,7 +193,6 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {	
-	// TODO: Check for newGame flag and make a new hand here....
 	[self updateWinningBidder];
 	[self updateAvailableBids];
 	[bidsTableView reloadData];
@@ -379,6 +378,7 @@
 		default:
 			break;
 	}
+	[[[self delegate] managedObjectContext] save:NULL];
 	if ([self currentBidder] == [self currentDealer] && [self bidForPlayer:[self currentDealer]] > -1)	// Everyone has bid
 	{
 		if ([[[self currentHand] valueForKey:@"winningBidder"] integerValue] == 0)	// No Winning Bidder
@@ -403,11 +403,13 @@
 			// TODO: now what?
 		}
 		[[self currentHand] setValue:[NSNumber numberWithBool:YES] forKey:@"biddingComplete"];
+		[[[self delegate] managedObjectContext] save:NULL];
 		[[self navigationController] popViewControllerAnimated:YES];
 	}
 	else if (selectedBid == k_10NoTrump)	// Highest bid made, no other bids can be made
 	{
 		[[self currentHand] setValue:[NSNumber numberWithBool:YES] forKey:@"biddingComplete"];
+		[[[self delegate] managedObjectContext] save:NULL];
 		[[self navigationController] popViewControllerAnimated:YES];
 	}
 	else	// Continue Bidding Process

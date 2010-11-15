@@ -184,6 +184,7 @@
 	[hands addObject:newHand];
 	[[self currentGame] setValue:hands forKey:@"hands"];
 	[self updateOrderedHandsWithHandSet:hands];
+	[[self managedObjectContext] save:NULL];
 }
 
 - (void)updateOrderedHandsWithHandSet:(NSMutableSet*)argHandSet
@@ -335,6 +336,7 @@
 		[self updateOrderedHandsWithHandSet:hands];
 	}
 	[self addNewHandWithDealer:dealer];
+	[[self managedObjectContext] save:NULL];
 	NSArray *deletePathArray = [NSArray arrayWithObject:argIndexPath];
 	[argTableView deleteRowsAtIndexPaths:deletePathArray withRowAnimation:UITableViewRowAnimationFade];
 	[[self gameDetailPlayerView] moveDealerToPlayer:dealer];
@@ -527,6 +529,7 @@
 		return NO;
 	}
 	[[self currentHand] setValue:[NSNumber numberWithInt:argPlayer] forKey:@"dealer"];
+	[[self managedObjectContext] save:NULL];
 	return YES;
 }
 
@@ -624,6 +627,7 @@
 			nextDealer = nextDealer - 4;
 		[self addNewHandWithDealer:nextDealer];
 	}
+	[[self managedObjectContext] save:NULL];
 	[self refreshMainActionButton];
 	[[self gameDetailHistoryView] reloadData];
 }
@@ -651,6 +655,9 @@
 	if ([[[[self gameDetailPlayerView] player4TextField] text] isEqual:@""])
 		[[[self gameDetailPlayerView] player4TextField] setText:NSLocalizedString(@"Player 4", @"Player 4")];
 	[player4 setValue:[[[self gameDetailPlayerView] player4TextField] text] forKey:@"name"];
+	NSError *error;
+	if (![[self managedObjectContext] save:&error])
+		NSLog(@"%@", [error localizedDescription]);
 	[self refreshNames];
 }
 

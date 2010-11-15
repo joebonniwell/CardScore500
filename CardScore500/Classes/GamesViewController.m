@@ -121,6 +121,9 @@
 
 - (void)createNewGame
 {
+	NSError *firstError;
+	if (![[self gamesFetchedResultsController] performFetch:&firstError])
+		NSLog(@"%@", [firstError localizedDescription]);
 	NSManagedObject *mostRecentGame = nil;
 	NSUInteger firstIndex[2] = {0, 0};
 	NSUInteger secondIndex[2] = {1, 0};
